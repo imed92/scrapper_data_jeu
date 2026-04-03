@@ -1,6 +1,6 @@
 # PowerCore — Jeu Incrémental + Analyse de données Python
 
-> Projet pédagogique complet : un jeu incrémental qui génère des logs, analysés ensuite avec Python & Matplotlib.
+> Projet complet : un jeu incrémental qui génère des logs, analysés ensuite avec Python & Matplotlib.
 
 ---
 
