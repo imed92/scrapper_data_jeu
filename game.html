@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>⚡ PowerCore — Jeu Incrémental</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap');
+
+  :root {
+    --bg: #0a0e1a;
+    --panel: #0f1628;
+    --border: #1e2d50;
+    --accent: #00d4ff;
+    --accent2: #ff6b35;
+    --accent3: #7fff6b;
+    --text: #c8d8f0;
+    --muted: #4a6080;
+    --glow: 0 0 20px rgba(0,212,255,0.3);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Share Tech Mono', monospace;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Grid scanlines overlay */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,212,255,0.015) 2px, rgba(0,212,255,0.015) 4px);
+    pointer-events: none;
+    z-index: 100;
+  }
+
+  header {
+    text-align: center;
+    padding: 24px;
+    border-bottom: 1px solid var(--border);
+    background: linear-gradient(180deg, rgba(0,212,255,0.05) 0%, transparent 100%);
+  }
+
+  header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--accent);
+    text-shadow: var(--glow);
+    letter-spacing: 4px;
+  }
+
+  header p { color: var(--muted); font-size: 0.75rem; margin-top: 4px; }
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 300px 280px;
+    gap: 16px;
+    padding: 16px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 16px;
+  }
+
+  .panel-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.65rem;
+    letter-spacing: 3px;
+    color: var(--accent);
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+    text-transform: uppercase;
+  }
+
+  /* Resources */
+  .resource-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .resource-card {
+    background: rgba(0,0,0,0.3);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 12px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .resource-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 2px;
+    background: var(--accent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s;
+  }
+
+  .resource-card.pulse::after { transform: scaleX(1); animation: shrink 0.3s forwards; }
+
+  @keyframes shrink { to { transform: scaleX(0); } }
+
+  .resource-label { font-size: 0.6rem; color: var(--muted); letter-spacing: 2px; text-transform: uppercase; }
+  .resource-value {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 1.2;
+  }
+  .resource-rate { font-size: 0.65rem; color: var(--accent3); margin-top: 2px; }
+
+  /* Big click button */
+  #btn-collect {
+    width: 100%;
+    padding: 20px;
+    background: transparent;
+    border: 2px solid var(--accent);
+    color: var(--accent);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: all 0.1s;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 12px;
+  }
+
+  #btn-collect:hover { background: rgba(0,212,255,0.1); box-shadow: var(--glow); }
+  #btn-collect:active { transform: scale(0.98); background: rgba(0,212,255,0.2); }
+
+  #btn-collect::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at center, rgba(0,212,255,0.4) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.15s;
+  }
+  #btn-collect:active::after { opacity: 1; }
+
+  .click-power { text-align: center; font-size: 0.65rem; color: var(--muted); margin-bottom: 20px; }
+
+  /* Upgrades */
+  .upgrade-btn {
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.75rem;
+    padding: 10px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: left;
+    margin-bottom: 8px;
+    transition: all 0.15s;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .upgrade-btn:hover:not(:disabled) {
+    border-color: var(--accent2);
+    background: rgba(255,107,53,0.08);
+    color: #fff;
+  }
+
+  .upgrade-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+  .upgrade-btn.owned { border-color: var(--accent3); }
+
+  .upg-name { font-weight: bold; display: block; }
+  .upg-desc { font-size: 0.6rem; color: var(--muted); display: block; margin-top: 2px; }
+  .upg-cost { color: var(--accent2); font-family: 'Orbitron', sans-serif; font-size: 0.7rem; white-space: nowrap; }
+
+  /* Generators */
+  .gen-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background: rgba(0,0,0,0.2);
+  }
+
+  .gen-info { flex: 1; }
+  .gen-name { font-size: 0.7rem; font-weight: bold; }
+  .gen-rate { font-size: 0.6rem; color: var(--accent3); }
+  .gen-count {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.9rem;
+    color: var(--accent);
+    min-width: 28px;
+    text-align: center;
+  }
+
+  .gen-buy {
+    background: transparent;
+    border: 1px solid var(--accent2);
+    color: var(--accent2);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.65rem;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.1s;
+  }
+
+  .gen-buy:hover:not(:disabled) { background: rgba(255,107,53,0.2); }
+  .gen-buy:disabled { opacity: 0.3; cursor: not-allowed; }
+
+  /* Log panel */
+  #log-container {
+    font-size: 0.6rem;
+    color: var(--muted);
+    height: 340px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+
+  .log-entry {
+    padding: 3px 0;
+    border-bottom: 1px solid rgba(30,45,80,0.5);
+    display: flex;
+    gap: 8px;
+    animation: fadeIn 0.2s ease;
+  }
+
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; } }
+
+  .log-time { color: #2a4060; flex-shrink: 0; }
+  .log-event { color: var(--text); }
+  .log-event.click { color: var(--accent); }
+  .log-event.upgrade { color: var(--accent2); }
+  .log-event.generator { color: var(--accent3); }
+  .log-event.milestone { color: #ffdd57; font-weight: bold; }
+
+  /* Export button */
+  #btn-export {
+    width: 100%;
+    margin-top: 12px;
+    padding: 8px;
+    background: transparent;
+    border: 1px solid var(--accent3);
+    color: var(--accent3);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.7rem;
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    transition: all 0.15s;
+  }
+
+  #btn-export:hover { background: rgba(127,255,107,0.08); }
+
+  .export-info { font-size: 0.55rem; color: var(--muted); margin-top: 6px; text-align: center; }
+
+  /* Stats bar */
+  .stats-bar {
+    display: flex;
+    gap: 20px;
+    padding: 10px 16px;
+    background: rgba(0,0,0,0.4);
+    border-top: 1px solid var(--border);
+    font-size: 0.6rem;
+    color: var(--muted);
+    flex-wrap: wrap;
+  }
+
+  .stat-item { display: flex; gap: 6px; }
+  .stat-val { color: var(--accent); font-family: 'Orbitron', sans-serif; }
+
+  @media (max-width: 800px) {
+    .main { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>⚡ POWERCORE</h1>
+  <p>Incremental Energy Management Simulator — Log Edition</p>
+</header>
+
+<div class="main">
+
+  <!-- Zone principale -->
+  <div>
+    <div class="panel" style="margin-bottom:16px">
+      <div class="panel-title">⚡ Energy Core</div>
+      <div class="resource-grid">
+        <div class="resource-card" id="card-energy">
+          <div class="resource-label">Énergie</div>
+          <div class="resource-value" id="val-energy">0</div>
+          <div class="resource-rate" id="rate-energy">+0 /s</div>
+        </div>
+        <div class="resource-card">
+          <div class="resource-label">Total produit</div>
+          <div class="resource-value" id="val-total">0</div>
+          <div class="resource-rate" id="val-clicks">0 clics</div>
+        </div>
+        <div class="resource-card">
+          <div class="resource-label">Cristaux</div>
+          <div class="resource-value" id="val-crystals" style="color:var(--accent2)">0</div>
+          <div class="resource-rate">monnaie premium</div>
+        </div>
+        <div class="resource-card">
+          <div class="resource-label">Niveau</div>
+          <div class="resource-value" id="val-level" style="color:var(--accent3)">1</div>
+          <div class="resource-rate" id="val-xp">0 / 100 XP</div>
+        </div>
+      </div>
+
+      <button id="btn-collect">▶ COLLECTER ÉNERGIE</button>
+      <div class="click-power" id="click-power">Puissance de clic : 1 ⚡</div>
+
+      <div class="panel-title">⬆ Améliorations</div>
+      <div id="upgrades-container"></div>
+    </div>
+  </div>
+
+  <!-- Générateurs -->
+  <div class="panel">
+    <div class="panel-title">🏭 Générateurs</div>
+    <div id="generators-container"></div>
+  </div>
+
+  <!-- Logs -->
+  <div class="panel">
+    <div class="panel-title">📋 Journal d'événements</div>
+    <div id="log-container"></div>
+    <button id="btn-export">⬇ Exporter logs (JSON)</button>
+    <div class="export-info">Ouvre game_logs.json avec Python pour les graphiques</div>
+  </div>
+
+</div>
+
+<div class="stats-bar" id="stats-bar">
+  <div class="stat-item">Session <span class="stat-val" id="stat-time">0s</span></div>
+  <div class="stat-item">Logs <span class="stat-val" id="stat-logs">0</span></div>
+  <div class="stat-item">CPS <span class="stat-val" id="stat-cps">0</span></div>
+  <div class="stat-item">Meilleur /s <span class="stat-val" id="stat-best">0</span></div>
+</div>
+
+<script>
+// ============================================================
+//  ÉTAT DU JEU
+// ============================================================
+const state = {
+  energy: 0,
+  totalProduced: 0,
+  crystals: 0,
+  clicks: 0,
+  level: 1,
+  xp: 0,
+  clickPower: 1,
+  passiveRate: 0,
+  sessionStart: Date.now(),
+  bestCPS: 0,
+  generators: {
+    reactor:    { name: 'Micro-réacteur',    count: 0, baseCost: 15,   baseRate: 0.5,  costMult: 1.15 },
+    turbine:    { name: 'Turbine solaire',   count: 0, baseCost: 100,  baseRate: 3,    costMult: 1.15 },
+    fusion:     { name: 'Cellule fusion',    count: 0, baseCost: 800,  baseRate: 20,   costMult: 1.15 },
+    orbital:    { name: 'Station orbitale',  count: 0, baseCost: 6500, baseRate: 120,  costMult: 1.15 },
+  },
+  upgrades: {
+    click2:   { name: 'Amplificateur x2',   desc: 'Double la puissance de clic',    cost: 50,   crystalCost: 0, owned: false, effect: () => { state.clickPower *= 2; } },
+    click5:   { name: 'Turbo Clic',         desc: 'x5 puissance de clic',           cost: 0,    crystalCost: 2, owned: false, effect: () => { state.clickPower *= 5; } },
+    reactx2:  { name: 'Réacteurs ×2',       desc: 'Double le rendement des réacteurs', cost: 500, crystalCost: 0, owned: false, effect: () => { state.generators.reactor.baseRate *= 2; } },
+    turbx2:   { name: 'Turbines ×2',        desc: 'Double le rendement des turbines', cost: 1200, crystalCost: 0, owned: false, effect: () => { state.generators.turbine.baseRate *= 2; } },
+    crystal1: { name: 'Synthèse cristaux',  desc: '+1 cristal toutes les 200 ⚡ prod', cost: 300, crystalCost: 0, owned: false, effect: () => {} },
+  }
+};
+
+// ============================================================
+//  LOGS
+// ============================================================
+const logs = [];
+let logCount = 0;
+
+function addLog(type, data) {
+  const entry = {
+    id: ++logCount,
+    timestamp: Date.now(),
+    elapsed_ms: Date.now() - state.sessionStart,
+    type,
+    data: {
+      energy_snapshot: Math.floor(state.energy),
+      level: state.level,
+      ...data
+    }
+  };
+  logs.push(entry);
+
+  const el = document.createElement('div');
+  el.className = 'log-entry';
+  const t = new Date(entry.timestamp);
+  const tStr = `${String(t.getMinutes()).padStart(2,'0')}:${String(t.getSeconds()).padStart(2,'0')}`;
+  el.innerHTML = `<span class="log-time">${tStr}</span><span class="log-event ${type}">${formatLogMsg(type, data)}</span>`;
+  const c = document.getElementById('log-container');
+  c.insertBefore(el, c.firstChild);
+  if (c.children.length > 80) c.removeChild(c.lastChild);
+  document.getElementById('stat-logs').textContent = logCount;
+}
+
+function formatLogMsg(type, data) {
+  switch(type) {
+    case 'click':     return `+${data.amount} ⚡ [clic #${data.click_number}]`;
+    case 'generator': return `Acheté: ${data.generator_name} (×${data.new_count})`;
+    case 'upgrade':   return `Amélioration: ${data.upgrade_name}`;
+    case 'milestone': return `🏆 ${data.description}`;
+    case 'passive':   return `Auto: +${data.amount} ⚡ (${data.generators_active} gen.)`;
+    case 'level_up':  return `⬆ NIVEAU ${data.new_level} !`;
+    case 'crystal':   return `💎 +${data.amount} cristal(aux)`;
+    default:          return JSON.stringify(data);
+  }
+}
+
+// ============================================================
+//  CALCULS
+// ============================================================
+function genCost(key) {
+  const g = state.generators[key];
+  return Math.floor(g.baseCost * Math.pow(g.costMult, g.count));
+}
+
+function totalPassiveRate() {
+  return Object.values(state.generators).reduce((sum, g) => sum + g.count * g.baseRate, 0);
+}
+
+function activeGenerators() {
+  return Object.values(state.generators).filter(g => g.count > 0).length;
+}
+
+// ============================================================
+//  ACTIONS JOUEUR
+// ============================================================
+document.getElementById('btn-collect').addEventListener('click', () => {
+  const amt = state.clickPower;
+  state.energy += amt;
+  state.totalProduced += amt;
+  state.clicks++;
+
+  gainXP(amt * 0.5);
+  checkCrystals();
+  checkMilestones();
+
+  addLog('click', { amount: amt, click_number: state.clicks, click_power: state.clickPower });
+
+  // Visual pulse
+  const card = document.getElementById('card-energy');
+  card.classList.remove('pulse');
+  void card.offsetWidth;
+  card.classList.add('pulse');
+
+  render();
+});
+
+function buyGenerator(key) {
+  const cost = genCost(key);
+  if (state.energy < cost) return;
+  state.energy -= cost;
+  state.generators[key].count++;
+  addLog('generator', {
+    generator_key: key,
+    generator_name: state.generators[key].name,
+    new_count: state.generators[key].count,
+    cost_paid: cost,
+    passive_rate_after: totalPassiveRate()
+  });
+  render();
+}
+
+function buyUpgrade(key) {
+  const u = state.upgrades[key];
+  if (u.owned) return;
+  if (u.crystalCost > 0 && state.crystals < u.crystalCost) return;
+  if (u.cost > 0 && state.energy < u.cost) return;
+  if (u.crystalCost > 0) state.crystals -= u.crystalCost;
+  else state.energy -= u.cost;
+  u.owned = true;
+  u.effect();
+  addLog('upgrade', { upgrade_key: key, upgrade_name: u.name, click_power_after: state.clickPower });
+  render();
+}
+
+// ============================================================
+//  SYSTÈME PASSIF
+// ============================================================
+let passiveLogCooldown = 0;
+setInterval(() => {
+  const rate = totalPassiveRate();
+  if (rate > 0) {
+    const gained = rate / 20;
+    state.energy += gained;
+    state.totalProduced += gained;
+    gainXP(gained * 0.1);
+    checkCrystals();
+    checkMilestones();
+
+    passiveLogCooldown--;
+    if (passiveLogCooldown <= 0) {
+      addLog('passive', { amount: Math.round(gained * 20), generators_active: activeGenerators(), rate_per_second: rate });
+      passiveLogCooldown = 20;
+    }
+    if (rate > state.bestCPS) state.bestCPS = rate;
+  }
+  render();
+}, 50);
+
+// ============================================================
+//  XP / LEVEL
+// ============================================================
+function gainXP(amount) {
+  state.xp += amount;
+  const needed = state.level * 100;
+  if (state.xp >= needed) {
+    state.xp -= needed;
+    state.level++;
+    addLog('level_up', { new_level: state.level, xp_overflow: Math.floor(state.xp) });
+  }
+}
+
+// ============================================================
+//  CRISTAUX
+// ============================================================
+let crystalThreshold = 200;
+function checkCrystals() {
+  if (!state.upgrades.crystal1.owned) return;
+  if (state.totalProduced >= crystalThreshold) {
+    state.crystals++;
+    crystalThreshold += 200;
+    addLog('crystal', { amount: 1, total_crystals: state.crystals, total_produced_trigger: Math.floor(state.totalProduced) });
+  }
+}
+
+// ============================================================
+//  MILESTONES
+// ============================================================
+const milestones = [
+  { id: 'm10',   threshold: 10,    desc: 'Première étincelle — 10 ⚡', done: false },
+  { id: 'm100',  threshold: 100,   desc: 'Réacteur en ligne — 100 ⚡ produits', done: false },
+  { id: 'm1k',   threshold: 1000,  desc: 'Surplus énergétique — 1 000 ⚡', done: false },
+  { id: 'm10k',  threshold: 10000, desc: 'Méga-production — 10 000 ⚡', done: false },
+  { id: 'c10',   threshold: 10,    desc: '10 clics réalisés', done: false, type: 'clicks' },
+  { id: 'c50',   threshold: 50,    desc: '50 clics réalisés', done: false, type: 'clicks' },
+  { id: 'c100',  threshold: 100,   desc: '100 clics réalisés', done: false, type: 'clicks' },
+];
+
+function checkMilestones() {
+  milestones.forEach(m => {
+    if (m.done) return;
+    const val = m.type === 'clicks' ? state.clicks : state.totalProduced;
+    if (val >= m.threshold) {
+      m.done = true;
+      addLog('milestone', { milestone_id: m.id, description: m.desc, total_produced: Math.floor(state.totalProduced), clicks: state.clicks });
+    }
+  });
+}
+
+// ============================================================
+//  RENDU
+// ============================================================
+function fmt(n) {
+  if (n >= 1e9) return (n/1e9).toFixed(2) + 'G';
+  if (n >= 1e6) return (n/1e6).toFixed(2) + 'M';
+  if (n >= 1e3) return (n/1e3).toFixed(1) + 'K';
+  return Math.floor(n).toString();
+}
+
+function render() {
+  document.getElementById('val-energy').textContent = fmt(state.energy);
+  document.getElementById('val-total').textContent = fmt(state.totalProduced);
+  document.getElementById('val-clicks').textContent = state.clicks + ' clics';
+  document.getElementById('val-crystals').textContent = state.crystals;
+  document.getElementById('val-level').textContent = state.level;
+
+  const needed = state.level * 100;
+  document.getElementById('val-xp').textContent = `${Math.floor(state.xp)} / ${needed} XP`;
+  document.getElementById('click-power').textContent = `Puissance de clic : ${state.clickPower} ⚡`;
+
+  const rate = totalPassiveRate();
+  document.getElementById('rate-energy').textContent = `+${rate.toFixed(1)} /s`;
+  document.getElementById('stat-cps').textContent = rate.toFixed(1);
+  document.getElementById('stat-best').textContent = state.bestCPS.toFixed(1);
+
+  const elapsed = Math.floor((Date.now() - state.sessionStart) / 1000);
+  const m = String(Math.floor(elapsed/60)).padStart(2,'0');
+  const s = String(elapsed%60).padStart(2,'0');
+  document.getElementById('stat-time').textContent = `${m}:${s}`;
+
+  renderGenerators();
+  renderUpgrades();
+}
+
+function renderGenerators() {
+  const c = document.getElementById('generators-container');
+  c.innerHTML = '';
+  Object.entries(state.generators).forEach(([key, g]) => {
+    const cost = genCost(key);
+    const canBuy = state.energy >= cost;
+    const row = document.createElement('div');
+    row.className = 'gen-row';
+    row.innerHTML = `
+      <div class="gen-info">
+        <div class="gen-name">${g.name}</div>
+        <div class="gen-rate">+${g.baseRate} ⚡/s · coût: ${fmt(cost)} ⚡</div>
+      </div>
+      <div class="gen-count">${g.count}</div>
+      <button class="gen-buy" ${canBuy ? '' : 'disabled'} onclick="buyGenerator('${key}')">ACHETER</button>
+    `;
+    c.appendChild(row);
+  });
+}
+
+function renderUpgrades() {
+  const c = document.getElementById('upgrades-container');
+  c.innerHTML = '';
+  Object.entries(state.upgrades).forEach(([key, u]) => {
+    const btn = document.createElement('button');
+    btn.className = 'upgrade-btn' + (u.owned ? ' owned' : '');
+    const canAfford = u.owned || (u.crystalCost > 0 ? state.crystals >= u.crystalCost : state.energy >= u.cost);
+    btn.disabled = u.owned || !canAfford;
+    const costStr = u.crystalCost > 0 ? `${u.crystalCost} 💎` : `${fmt(u.cost)} ⚡`;
+    btn.innerHTML = `
+      <div>
+        <span class="upg-name">${u.owned ? '✓ ' : ''}${u.name}</span>
+        <span class="upg-desc">${u.desc}</span>
+      </div>
+      <span class="upg-cost">${u.owned ? 'Acquis' : costStr}</span>
+    `;
+    if (!u.owned) btn.onclick = () => buyUpgrade(key);
+    c.appendChild(btn);
+  });
+}
+
+// ============================================================
+//  EXPORT JSON
+// ============================================================
+document.getElementById('btn-export').addEventListener('click', () => {
+  const export_data = {
+    meta: {
+      game: 'PowerCore',
+      session_start: new Date(state.sessionStart).toISOString(),
+      session_duration_ms: Date.now() - state.sessionStart,
+      total_logs: logs.length,
+      export_time: new Date().toISOString()
+    },
+    final_state: {
+      energy: Math.floor(state.energy),
+      total_produced: Math.floor(state.totalProduced),
+      crystals: state.crystals,
+      clicks: state.clicks,
+      level: state.level,
+      click_power: state.clickPower,
+      passive_rate: totalPassiveRate(),
+      generators: Object.fromEntries(Object.entries(state.generators).map(([k,g]) => [k, { name: g.name, count: g.count, rate_per_unit: g.baseRate }]))
+    },
+    events: logs
+  };
+
+  const blob = new Blob([JSON.stringify(export_data, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'game_logs.json';
+  a.click();
+  addLog('milestone', { milestone_id: 'export', description: `Logs exportés — ${logs.length} événements`, total_produced: Math.floor(state.totalProduced), clicks: state.clicks });
+});
+
+render();
+</script>
+</body>
+</html>

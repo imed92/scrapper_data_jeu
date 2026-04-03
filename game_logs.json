@@ -1,0 +1,6123 @@
+{
+  "meta": {
+    "game": "PowerCore",
+    "session_start": "2026-04-03T08:43:35.023Z",
+    "session_duration_ms": 2397398,
+    "total_logs": 465,
+    "export_time": "2026-04-03T09:23:32.421Z"
+  },
+  "final_state": {
+    "energy": 67,
+    "total_produced": 1648,
+    "crystals": 0,
+    "clicks": 269,
+    "level": 3,
+    "click_power": 2,
+    "passive_rate": 26,
+    "generators": {
+      "reactor": {
+        "name": "Micro-réacteur",
+        "count": 11,
+        "rate_per_unit": 1
+      },
+      "turbine": {
+        "name": "Turbine solaire",
+        "count": 5,
+        "rate_per_unit": 3
+      },
+      "fusion": {
+        "name": "Cellule fusion",
+        "count": 0,
+        "rate_per_unit": 20
+      },
+      "orbital": {
+        "name": "Station orbitale",
+        "count": 0,
+        "rate_per_unit": 120
+      }
+    }
+  },
+  "events": [
+    {
+      "id": 1,
+      "timestamp": 1775206321860,
+      "elapsed_ms": 506837,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 1,
+        "level": 1,
+        "amount": 1,
+        "click_number": 1,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 2,
+      "timestamp": 1775206325035,
+      "elapsed_ms": 510012,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 2,
+        "level": 1,
+        "amount": 1,
+        "click_number": 2,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 3,
+      "timestamp": 1775206325213,
+      "elapsed_ms": 510190,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 3,
+        "level": 1,
+        "amount": 1,
+        "click_number": 3,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 4,
+      "timestamp": 1775206325350,
+      "elapsed_ms": 510327,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 4,
+        "level": 1,
+        "amount": 1,
+        "click_number": 4,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 5,
+      "timestamp": 1775206325500,
+      "elapsed_ms": 510477,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 5,
+        "level": 1,
+        "amount": 1,
+        "click_number": 5,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 6,
+      "timestamp": 1775206325648,
+      "elapsed_ms": 510625,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 6,
+        "level": 1,
+        "amount": 1,
+        "click_number": 6,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 7,
+      "timestamp": 1775206325790,
+      "elapsed_ms": 510767,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 7,
+        "level": 1,
+        "amount": 1,
+        "click_number": 7,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 8,
+      "timestamp": 1775206325929,
+      "elapsed_ms": 510906,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 8,
+        "level": 1,
+        "amount": 1,
+        "click_number": 8,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 9,
+      "timestamp": 1775206326061,
+      "elapsed_ms": 511038,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 9,
+        "level": 1,
+        "amount": 1,
+        "click_number": 9,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 10,
+      "timestamp": 1775206326194,
+      "elapsed_ms": 511171,
+      "type": "milestone",
+      "data": {
+        "energy_snapshot": 10,
+        "level": 1,
+        "milestone_id": "m10",
+        "description": "Première étincelle — 10 ⚡",
+        "total_produced": 10,
+        "clicks": 10
+      }
+    },
+    {
+      "id": 11,
+      "timestamp": 1775206326194,
+      "elapsed_ms": 511171,
+      "type": "milestone",
+      "data": {
+        "energy_snapshot": 10,
+        "level": 1,
+        "milestone_id": "c10",
+        "description": "10 clics réalisés",
+        "total_produced": 10,
+        "clicks": 10
+      }
+    },
+    {
+      "id": 12,
+      "timestamp": 1775206326194,
+      "elapsed_ms": 511171,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 10,
+        "level": 1,
+        "amount": 1,
+        "click_number": 10,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 13,
+      "timestamp": 1775206326334,
+      "elapsed_ms": 511311,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 11,
+        "level": 1,
+        "amount": 1,
+        "click_number": 11,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 14,
+      "timestamp": 1775206326479,
+      "elapsed_ms": 511456,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 12,
+        "level": 1,
+        "amount": 1,
+        "click_number": 12,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 15,
+      "timestamp": 1775206326616,
+      "elapsed_ms": 511593,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 13,
+        "level": 1,
+        "amount": 1,
+        "click_number": 13,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 16,
+      "timestamp": 1775206326753,
+      "elapsed_ms": 511730,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 14,
+        "level": 1,
+        "amount": 1,
+        "click_number": 14,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 17,
+      "timestamp": 1775206326899,
+      "elapsed_ms": 511876,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 15,
+        "level": 1,
+        "amount": 1,
+        "click_number": 15,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 18,
+      "timestamp": 1775206327031,
+      "elapsed_ms": 512008,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 16,
+        "level": 1,
+        "amount": 1,
+        "click_number": 16,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 19,
+      "timestamp": 1775206327171,
+      "elapsed_ms": 512148,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 17,
+        "level": 1,
+        "amount": 1,
+        "click_number": 17,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 20,
+      "timestamp": 1775206327317,
+      "elapsed_ms": 512294,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 18,
+        "level": 1,
+        "amount": 1,
+        "click_number": 18,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 21,
+      "timestamp": 1775206327469,
+      "elapsed_ms": 512446,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 19,
+        "level": 1,
+        "amount": 1,
+        "click_number": 19,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 22,
+      "timestamp": 1775206327615,
+      "elapsed_ms": 512592,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 20,
+        "level": 1,
+        "amount": 1,
+        "click_number": 20,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 23,
+      "timestamp": 1775206327761,
+      "elapsed_ms": 512738,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 21,
+        "level": 1,
+        "amount": 1,
+        "click_number": 21,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 24,
+      "timestamp": 1775206328069,
+      "elapsed_ms": 513046,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 22,
+        "level": 1,
+        "amount": 1,
+        "click_number": 22,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 25,
+      "timestamp": 1775206328235,
+      "elapsed_ms": 513212,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 23,
+        "level": 1,
+        "amount": 1,
+        "click_number": 23,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 26,
+      "timestamp": 1775208043085,
+      "elapsed_ms": 2228062,
+      "type": "generator",
+      "data": {
+        "energy_snapshot": 8,
+        "level": 1,
+        "generator_key": "reactor",
+        "generator_name": "Micro-réacteur",
+        "new_count": 1,
+        "cost_paid": 15,
+        "passive_rate_after": 0.5
+      }
+    },
+    {
+      "id": 27,
+      "timestamp": 1775208043126,
+      "elapsed_ms": 2228103,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 8,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 28,
+      "timestamp": 1775208044139,
+      "elapsed_ms": 2229116,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 8,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 29,
+      "timestamp": 1775208044564,
+      "elapsed_ms": 2229541,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 9,
+        "level": 1,
+        "amount": 1,
+        "click_number": 24,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 30,
+      "timestamp": 1775208045136,
+      "elapsed_ms": 2230113,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 10,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 31,
+      "timestamp": 1775208045170,
+      "elapsed_ms": 2230147,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 11,
+        "level": 1,
+        "amount": 1,
+        "click_number": 25,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 32,
+      "timestamp": 1775208045652,
+      "elapsed_ms": 2230629,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 12,
+        "level": 1,
+        "amount": 1,
+        "click_number": 26,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 33,
+      "timestamp": 1775208046128,
+      "elapsed_ms": 2231105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 12,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 34,
+      "timestamp": 1775208046182,
+      "elapsed_ms": 2231159,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 13,
+        "level": 1,
+        "amount": 1,
+        "click_number": 27,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 35,
+      "timestamp": 1775208046645,
+      "elapsed_ms": 2231622,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 14,
+        "level": 1,
+        "amount": 1,
+        "click_number": 28,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 36,
+      "timestamp": 1775208047078,
+      "elapsed_ms": 2232055,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 15,
+        "level": 1,
+        "amount": 1,
+        "click_number": 29,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 37,
+      "timestamp": 1775208047127,
+      "elapsed_ms": 2232104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 16,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 38,
+      "timestamp": 1775208047890,
+      "elapsed_ms": 2232867,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 17,
+        "level": 1,
+        "amount": 1,
+        "click_number": 30,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 39,
+      "timestamp": 1775208048128,
+      "elapsed_ms": 2233105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 17,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 40,
+      "timestamp": 1775208048496,
+      "elapsed_ms": 2233473,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 18,
+        "level": 1,
+        "amount": 1,
+        "click_number": 31,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 41,
+      "timestamp": 1775208049015,
+      "elapsed_ms": 2233992,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 19,
+        "level": 1,
+        "amount": 1,
+        "click_number": 32,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 42,
+      "timestamp": 1775208049126,
+      "elapsed_ms": 2234103,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 20,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 43,
+      "timestamp": 1775208049524,
+      "elapsed_ms": 2234501,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 21,
+        "level": 1,
+        "amount": 1,
+        "click_number": 33,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 44,
+      "timestamp": 1775208050131,
+      "elapsed_ms": 2235108,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 21,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 45,
+      "timestamp": 1775208050184,
+      "elapsed_ms": 2235161,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 22,
+        "level": 1,
+        "amount": 1,
+        "click_number": 34,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 46,
+      "timestamp": 1775208050741,
+      "elapsed_ms": 2235718,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 23,
+        "level": 1,
+        "amount": 1,
+        "click_number": 35,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 47,
+      "timestamp": 1775208051127,
+      "elapsed_ms": 2236104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 24,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 48,
+      "timestamp": 1775208051223,
+      "elapsed_ms": 2236200,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 25,
+        "level": 1,
+        "amount": 1,
+        "click_number": 36,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 49,
+      "timestamp": 1775208051661,
+      "elapsed_ms": 2236638,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 26,
+        "level": 1,
+        "amount": 1,
+        "click_number": 37,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 50,
+      "timestamp": 1775208052139,
+      "elapsed_ms": 2237116,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 26,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 51,
+      "timestamp": 1775208052163,
+      "elapsed_ms": 2237140,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 27,
+        "level": 1,
+        "amount": 1,
+        "click_number": 38,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 52,
+      "timestamp": 1775208052674,
+      "elapsed_ms": 2237651,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 28,
+        "level": 1,
+        "amount": 1,
+        "click_number": 39,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 53,
+      "timestamp": 1775208053137,
+      "elapsed_ms": 2238114,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 29,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 54,
+      "timestamp": 1775208053155,
+      "elapsed_ms": 2238132,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 30,
+        "level": 1,
+        "amount": 1,
+        "click_number": 40,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 55,
+      "timestamp": 1775208053594,
+      "elapsed_ms": 2238571,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 31,
+        "level": 1,
+        "amount": 1,
+        "click_number": 41,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 56,
+      "timestamp": 1775208054131,
+      "elapsed_ms": 2239108,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 31,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 57,
+      "timestamp": 1775208054139,
+      "elapsed_ms": 2239116,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 32,
+        "level": 1,
+        "amount": 1,
+        "click_number": 42,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 58,
+      "timestamp": 1775208054591,
+      "elapsed_ms": 2239568,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 33,
+        "level": 1,
+        "amount": 1,
+        "click_number": 43,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 59,
+      "timestamp": 1775208055086,
+      "elapsed_ms": 2240063,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 34,
+        "level": 1,
+        "amount": 1,
+        "click_number": 44,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 60,
+      "timestamp": 1775208055127,
+      "elapsed_ms": 2240104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 35,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 61,
+      "timestamp": 1775208055482,
+      "elapsed_ms": 2240459,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 36,
+        "level": 1,
+        "amount": 1,
+        "click_number": 45,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 62,
+      "timestamp": 1775208055974,
+      "elapsed_ms": 2240951,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 37,
+        "level": 1,
+        "amount": 1,
+        "click_number": 46,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 63,
+      "timestamp": 1775208056127,
+      "elapsed_ms": 2241104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 37,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 64,
+      "timestamp": 1775208056407,
+      "elapsed_ms": 2241384,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 38,
+        "level": 1,
+        "amount": 1,
+        "click_number": 47,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 65,
+      "timestamp": 1775208056859,
+      "elapsed_ms": 2241836,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 39,
+        "level": 1,
+        "amount": 1,
+        "click_number": 48,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 66,
+      "timestamp": 1775208057127,
+      "elapsed_ms": 2242104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 40,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 67,
+      "timestamp": 1775208057266,
+      "elapsed_ms": 2242243,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 41,
+        "level": 1,
+        "amount": 1,
+        "click_number": 49,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 68,
+      "timestamp": 1775208057732,
+      "elapsed_ms": 2242709,
+      "type": "milestone",
+      "data": {
+        "energy_snapshot": 42,
+        "level": 1,
+        "milestone_id": "c50",
+        "description": "50 clics réalisés",
+        "total_produced": 57,
+        "clicks": 50
+      }
+    },
+    {
+      "id": 69,
+      "timestamp": 1775208057732,
+      "elapsed_ms": 2242709,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 42,
+        "level": 1,
+        "amount": 1,
+        "click_number": 50,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 70,
+      "timestamp": 1775208058132,
+      "elapsed_ms": 2243109,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 42,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 71,
+      "timestamp": 1775208058179,
+      "elapsed_ms": 2243156,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 43,
+        "level": 1,
+        "amount": 1,
+        "click_number": 51,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 72,
+      "timestamp": 1775208058541,
+      "elapsed_ms": 2243518,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 44,
+        "level": 1,
+        "amount": 1,
+        "click_number": 52,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 73,
+      "timestamp": 1775208059032,
+      "elapsed_ms": 2244009,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 45,
+        "level": 1,
+        "amount": 1,
+        "click_number": 53,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 74,
+      "timestamp": 1775208059127,
+      "elapsed_ms": 2244104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 46,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 75,
+      "timestamp": 1775208059475,
+      "elapsed_ms": 2244452,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 47,
+        "level": 1,
+        "amount": 1,
+        "click_number": 54,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 76,
+      "timestamp": 1775208059897,
+      "elapsed_ms": 2244874,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 48,
+        "level": 1,
+        "amount": 1,
+        "click_number": 55,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 77,
+      "timestamp": 1775208060124,
+      "elapsed_ms": 2245101,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 48,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 78,
+      "timestamp": 1775208060220,
+      "elapsed_ms": 2245197,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 49,
+        "level": 1,
+        "amount": 1,
+        "click_number": 56,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 79,
+      "timestamp": 1775208060753,
+      "elapsed_ms": 2245730,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 50,
+        "level": 1,
+        "amount": 1,
+        "click_number": 57,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 80,
+      "timestamp": 1775208061101,
+      "elapsed_ms": 2246078,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 51,
+        "level": 1,
+        "amount": 1,
+        "click_number": 58,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 81,
+      "timestamp": 1775208061126,
+      "elapsed_ms": 2246103,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 52,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 82,
+      "timestamp": 1775208061493,
+      "elapsed_ms": 2246470,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 53,
+        "level": 1,
+        "amount": 1,
+        "click_number": 59,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 83,
+      "timestamp": 1775208062045,
+      "elapsed_ms": 2247022,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 54,
+        "level": 1,
+        "amount": 1,
+        "click_number": 60,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 84,
+      "timestamp": 1775208062127,
+      "elapsed_ms": 2247104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 54,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 85,
+      "timestamp": 1775208062527,
+      "elapsed_ms": 2247504,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 55,
+        "level": 1,
+        "amount": 1,
+        "click_number": 61,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 86,
+      "timestamp": 1775208063040,
+      "elapsed_ms": 2248017,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 56,
+        "level": 1,
+        "amount": 1,
+        "click_number": 62,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 87,
+      "timestamp": 1775208063127,
+      "elapsed_ms": 2248104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 57,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 88,
+      "timestamp": 1775208063472,
+      "elapsed_ms": 2248449,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 58,
+        "level": 1,
+        "amount": 1,
+        "click_number": 63,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 89,
+      "timestamp": 1775208063921,
+      "elapsed_ms": 2248898,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 59,
+        "level": 1,
+        "amount": 1,
+        "click_number": 64,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 90,
+      "timestamp": 1775208064125,
+      "elapsed_ms": 2249102,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 59,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 91,
+      "timestamp": 1775208064333,
+      "elapsed_ms": 2249310,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 60,
+        "level": 1,
+        "amount": 1,
+        "click_number": 65,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 92,
+      "timestamp": 1775208064720,
+      "elapsed_ms": 2249697,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 61,
+        "level": 1,
+        "amount": 1,
+        "click_number": 66,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 93,
+      "timestamp": 1775208065125,
+      "elapsed_ms": 2250102,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 62,
+        "level": 1,
+        "amount": 1,
+        "click_number": 67,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 94,
+      "timestamp": 1775208065134,
+      "elapsed_ms": 2250111,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 63,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 95,
+      "timestamp": 1775208065637,
+      "elapsed_ms": 2250614,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 64,
+        "level": 1,
+        "amount": 1,
+        "click_number": 68,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 96,
+      "timestamp": 1775208066044,
+      "elapsed_ms": 2251021,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 65,
+        "level": 1,
+        "amount": 1,
+        "click_number": 69,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 97,
+      "timestamp": 1775208066127,
+      "elapsed_ms": 2251104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 65,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 98,
+      "timestamp": 1775208066501,
+      "elapsed_ms": 2251478,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 66,
+        "level": 1,
+        "amount": 1,
+        "click_number": 70,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 99,
+      "timestamp": 1775208066893,
+      "elapsed_ms": 2251870,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 67,
+        "level": 1,
+        "amount": 1,
+        "click_number": 71,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 100,
+      "timestamp": 1775208067128,
+      "elapsed_ms": 2252105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 68,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 101,
+      "timestamp": 1775208067283,
+      "elapsed_ms": 2252260,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 69,
+        "level": 1,
+        "amount": 1,
+        "click_number": 72,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 102,
+      "timestamp": 1775208067654,
+      "elapsed_ms": 2252631,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 70,
+        "level": 1,
+        "amount": 1,
+        "click_number": 73,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 103,
+      "timestamp": 1775208068054,
+      "elapsed_ms": 2253031,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 71,
+        "level": 1,
+        "amount": 1,
+        "click_number": 74,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 104,
+      "timestamp": 1775208068127,
+      "elapsed_ms": 2253104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 71,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 105,
+      "timestamp": 1775208068517,
+      "elapsed_ms": 2253494,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 72,
+        "level": 1,
+        "amount": 1,
+        "click_number": 75,
+        "click_power": 1
+      }
+    },
+    {
+      "id": 106,
+      "timestamp": 1775208069127,
+      "elapsed_ms": 2254104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 73,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 107,
+      "timestamp": 1775208069546,
+      "elapsed_ms": 2254523,
+      "type": "upgrade",
+      "data": {
+        "energy_snapshot": 23,
+        "level": 1,
+        "upgrade_key": "click2",
+        "upgrade_name": "Amplificateur x2",
+        "click_power_after": 2
+      }
+    },
+    {
+      "id": 108,
+      "timestamp": 1775208070125,
+      "elapsed_ms": 2255102,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 23,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 109,
+      "timestamp": 1775208070750,
+      "elapsed_ms": 2255727,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 25,
+        "level": 1,
+        "amount": 2,
+        "click_number": 76,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 110,
+      "timestamp": 1775208071127,
+      "elapsed_ms": 2256104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 26,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 111,
+      "timestamp": 1775208071259,
+      "elapsed_ms": 2256236,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 28,
+        "level": 1,
+        "amount": 2,
+        "click_number": 77,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 112,
+      "timestamp": 1775208071668,
+      "elapsed_ms": 2256645,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 30,
+        "level": 1,
+        "amount": 2,
+        "click_number": 78,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 113,
+      "timestamp": 1775208072134,
+      "elapsed_ms": 2257111,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 30,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 114,
+      "timestamp": 1775208072214,
+      "elapsed_ms": 2257191,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 32,
+        "level": 1,
+        "amount": 2,
+        "click_number": 79,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 115,
+      "timestamp": 1775208072677,
+      "elapsed_ms": 2257654,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 34,
+        "level": 1,
+        "amount": 2,
+        "click_number": 80,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 116,
+      "timestamp": 1775208073075,
+      "elapsed_ms": 2258052,
+      "type": "milestone",
+      "data": {
+        "energy_snapshot": 34,
+        "level": 1,
+        "milestone_id": "m100",
+        "description": "Réacteur en ligne — 100 ⚡ produits",
+        "total_produced": 100,
+        "clicks": 80
+      }
+    },
+    {
+      "id": 117,
+      "timestamp": 1775208073097,
+      "elapsed_ms": 2258074,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 36,
+        "level": 1,
+        "amount": 2,
+        "click_number": 81,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 118,
+      "timestamp": 1775208073128,
+      "elapsed_ms": 2258105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 37,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 119,
+      "timestamp": 1775208073518,
+      "elapsed_ms": 2258495,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 39,
+        "level": 1,
+        "amount": 2,
+        "click_number": 82,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 120,
+      "timestamp": 1775208073960,
+      "elapsed_ms": 2258937,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 41,
+        "level": 1,
+        "amount": 2,
+        "click_number": 83,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 121,
+      "timestamp": 1775208074129,
+      "elapsed_ms": 2259106,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 41,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 122,
+      "timestamp": 1775208074367,
+      "elapsed_ms": 2259344,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 43,
+        "level": 1,
+        "amount": 2,
+        "click_number": 84,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 123,
+      "timestamp": 1775208074671,
+      "elapsed_ms": 2259648,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 45,
+        "level": 1,
+        "amount": 2,
+        "click_number": 85,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 124,
+      "timestamp": 1775208075127,
+      "elapsed_ms": 2260104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 46,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 125,
+      "timestamp": 1775208075152,
+      "elapsed_ms": 2260129,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 48,
+        "level": 1,
+        "amount": 2,
+        "click_number": 86,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 126,
+      "timestamp": 1775208075530,
+      "elapsed_ms": 2260507,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 50,
+        "level": 1,
+        "amount": 2,
+        "click_number": 87,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 127,
+      "timestamp": 1775208075870,
+      "elapsed_ms": 2260847,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 52,
+        "level": 1,
+        "amount": 2,
+        "click_number": 88,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 128,
+      "timestamp": 1775208076127,
+      "elapsed_ms": 2261104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 52,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 129,
+      "timestamp": 1775208076301,
+      "elapsed_ms": 2261278,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 54,
+        "level": 1,
+        "amount": 2,
+        "click_number": 89,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 130,
+      "timestamp": 1775208076724,
+      "elapsed_ms": 2261701,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 56,
+        "level": 1,
+        "amount": 2,
+        "click_number": 90,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 131,
+      "timestamp": 1775208077134,
+      "elapsed_ms": 2262111,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 57,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 132,
+      "timestamp": 1775208077233,
+      "elapsed_ms": 2262210,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 59,
+        "level": 1,
+        "amount": 2,
+        "click_number": 91,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 133,
+      "timestamp": 1775208077635,
+      "elapsed_ms": 2262612,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 61,
+        "level": 1,
+        "amount": 2,
+        "click_number": 92,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 134,
+      "timestamp": 1775208078111,
+      "elapsed_ms": 2263088,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 63,
+        "level": 1,
+        "amount": 2,
+        "click_number": 93,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 135,
+      "timestamp": 1775208078124,
+      "elapsed_ms": 2263101,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 63,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 136,
+      "timestamp": 1775208078584,
+      "elapsed_ms": 2263561,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 65,
+        "level": 1,
+        "amount": 2,
+        "click_number": 94,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 137,
+      "timestamp": 1775208079014,
+      "elapsed_ms": 2263991,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 67,
+        "level": 1,
+        "amount": 2,
+        "click_number": 95,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 138,
+      "timestamp": 1775208079127,
+      "elapsed_ms": 2264104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 68,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 139,
+      "timestamp": 1775208079492,
+      "elapsed_ms": 2264469,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 70,
+        "level": 1,
+        "amount": 2,
+        "click_number": 96,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 140,
+      "timestamp": 1775208079908,
+      "elapsed_ms": 2264885,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 72,
+        "level": 1,
+        "amount": 2,
+        "click_number": 97,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 141,
+      "timestamp": 1775208080128,
+      "elapsed_ms": 2265105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 72,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 142,
+      "timestamp": 1775208080283,
+      "elapsed_ms": 2265260,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 74,
+        "level": 1,
+        "amount": 2,
+        "click_number": 98,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 143,
+      "timestamp": 1775208080667,
+      "elapsed_ms": 2265644,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 76,
+        "level": 1,
+        "amount": 2,
+        "click_number": 99,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 144,
+      "timestamp": 1775208081127,
+      "elapsed_ms": 2266104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 77,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 145,
+      "timestamp": 1775208082127,
+      "elapsed_ms": 2267104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 77,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 146,
+      "timestamp": 1775208082493,
+      "elapsed_ms": 2267470,
+      "type": "milestone",
+      "data": {
+        "energy_snapshot": 79,
+        "level": 1,
+        "milestone_id": "c100",
+        "description": "100 clics réalisés",
+        "total_produced": 144,
+        "clicks": 100
+      }
+    },
+    {
+      "id": 147,
+      "timestamp": 1775208082493,
+      "elapsed_ms": 2267470,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 79,
+        "level": 1,
+        "amount": 2,
+        "click_number": 100,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 148,
+      "timestamp": 1775208083127,
+      "elapsed_ms": 2268104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 80,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 149,
+      "timestamp": 1775208083895,
+      "elapsed_ms": 2268872,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 82,
+        "level": 1,
+        "amount": 2,
+        "click_number": 101,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 150,
+      "timestamp": 1775208084131,
+      "elapsed_ms": 2269108,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 82,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 151,
+      "timestamp": 1775208084334,
+      "elapsed_ms": 2269311,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 84,
+        "level": 1,
+        "amount": 2,
+        "click_number": 102,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 152,
+      "timestamp": 1775208084767,
+      "elapsed_ms": 2269744,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 86,
+        "level": 1,
+        "amount": 2,
+        "click_number": 103,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 153,
+      "timestamp": 1775208085107,
+      "elapsed_ms": 2270084,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 89,
+        "level": 1,
+        "amount": 2,
+        "click_number": 104,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 154,
+      "timestamp": 1775208085128,
+      "elapsed_ms": 2270105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 89,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 155,
+      "timestamp": 1775208085484,
+      "elapsed_ms": 2270461,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 91,
+        "level": 1,
+        "amount": 2,
+        "click_number": 105,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 156,
+      "timestamp": 1775208085850,
+      "elapsed_ms": 2270827,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 93,
+        "level": 1,
+        "amount": 2,
+        "click_number": 106,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 157,
+      "timestamp": 1775208086127,
+      "elapsed_ms": 2271104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 93,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 158,
+      "timestamp": 1775208086215,
+      "elapsed_ms": 2271192,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 95,
+        "level": 1,
+        "amount": 2,
+        "click_number": 107,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 159,
+      "timestamp": 1775208087127,
+      "elapsed_ms": 2272104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 96,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 160,
+      "timestamp": 1775208087602,
+      "elapsed_ms": 2272579,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 98,
+        "level": 1,
+        "amount": 2,
+        "click_number": 108,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 161,
+      "timestamp": 1775208088093,
+      "elapsed_ms": 2273070,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 100,
+        "level": 1,
+        "amount": 2,
+        "click_number": 109,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 162,
+      "timestamp": 1775208088128,
+      "elapsed_ms": 2273105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 100,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 163,
+      "timestamp": 1775208088573,
+      "elapsed_ms": 2273550,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 102,
+        "level": 1,
+        "amount": 2,
+        "click_number": 110,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 164,
+      "timestamp": 1775208089044,
+      "elapsed_ms": 2274021,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 104,
+        "level": 1,
+        "amount": 2,
+        "click_number": 111,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 165,
+      "timestamp": 1775208089127,
+      "elapsed_ms": 2274104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 105,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 166,
+      "timestamp": 1775208089495,
+      "elapsed_ms": 2274472,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 107,
+        "level": 1,
+        "amount": 2,
+        "click_number": 112,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 167,
+      "timestamp": 1775208089914,
+      "elapsed_ms": 2274891,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 109,
+        "level": 1,
+        "amount": 2,
+        "click_number": 113,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 168,
+      "timestamp": 1775208090130,
+      "elapsed_ms": 2275107,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 109,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 169,
+      "timestamp": 1775208090424,
+      "elapsed_ms": 2275401,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 111,
+        "level": 1,
+        "amount": 2,
+        "click_number": 114,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 170,
+      "timestamp": 1775208091125,
+      "elapsed_ms": 2276102,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 112,
+        "level": 1,
+        "amount": 1,
+        "generators_active": 1,
+        "rate_per_second": 0.5
+      }
+    },
+    {
+      "id": 171,
+      "timestamp": 1775208091469,
+      "elapsed_ms": 2276446,
+      "type": "generator",
+      "data": {
+        "energy_snapshot": 12,
+        "level": 1,
+        "generator_key": "turbine",
+        "generator_name": "Turbine solaire",
+        "new_count": 1,
+        "cost_paid": 100,
+        "passive_rate_after": 3.5
+      }
+    },
+    {
+      "id": 172,
+      "timestamp": 1775208092127,
+      "elapsed_ms": 2277104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 14,
+        "level": 1,
+        "amount": 4,
+        "generators_active": 2,
+        "rate_per_second": 3.5
+      }
+    },
+    {
+      "id": 173,
+      "timestamp": 1775208092851,
+      "elapsed_ms": 2277828,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 19,
+        "level": 1,
+        "amount": 2,
+        "click_number": 115,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 174,
+      "timestamp": 1775208093128,
+      "elapsed_ms": 2278105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 20,
+        "level": 1,
+        "amount": 4,
+        "generators_active": 2,
+        "rate_per_second": 3.5
+      }
+    },
+    {
+      "id": 175,
+      "timestamp": 1775208093444,
+      "elapsed_ms": 2278421,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 23,
+        "level": 1,
+        "amount": 2,
+        "click_number": 116,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 176,
+      "timestamp": 1775208094041,
+      "elapsed_ms": 2279018,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 27,
+        "level": 1,
+        "amount": 2,
+        "click_number": 117,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 177,
+      "timestamp": 1775208094127,
+      "elapsed_ms": 2279104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 27,
+        "level": 1,
+        "amount": 4,
+        "generators_active": 2,
+        "rate_per_second": 3.5
+      }
+    },
+    {
+      "id": 178,
+      "timestamp": 1775208094642,
+      "elapsed_ms": 2279619,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 31,
+        "level": 1,
+        "amount": 2,
+        "click_number": 118,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 179,
+      "timestamp": 1775208095127,
+      "elapsed_ms": 2280104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 33,
+        "level": 1,
+        "amount": 4,
+        "generators_active": 2,
+        "rate_per_second": 3.5
+      }
+    },
+    {
+      "id": 180,
+      "timestamp": 1775208095244,
+      "elapsed_ms": 2280221,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 35,
+        "level": 1,
+        "amount": 2,
+        "click_number": 119,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 181,
+      "timestamp": 1775208095759,
+      "elapsed_ms": 2280736,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 39,
+        "level": 1,
+        "amount": 2,
+        "click_number": 120,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 182,
+      "timestamp": 1775208096127,
+      "elapsed_ms": 2281104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 40,
+        "level": 1,
+        "amount": 4,
+        "generators_active": 2,
+        "rate_per_second": 3.5
+      }
+    },
+    {
+      "id": 183,
+      "timestamp": 1775208096271,
+      "elapsed_ms": 2281248,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 42,
+        "level": 1,
+        "amount": 2,
+        "click_number": 121,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 184,
+      "timestamp": 1775208096743,
+      "elapsed_ms": 2281720,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 46,
+        "level": 1,
+        "amount": 2,
+        "click_number": 122,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 185,
+      "timestamp": 1775208097124,
+      "elapsed_ms": 2282101,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 48,
+        "level": 1,
+        "amount": 4,
+        "generators_active": 2,
+        "rate_per_second": 3.5
+      }
+    },
+    {
+      "id": 186,
+      "timestamp": 1775208097224,
+      "elapsed_ms": 2282201,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 50,
+        "level": 1,
+        "amount": 2,
+        "click_number": 123,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 187,
+      "timestamp": 1775208098124,
+      "elapsed_ms": 2283101,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 53,
+        "level": 1,
+        "amount": 4,
+        "generators_active": 2,
+        "rate_per_second": 3.5
+      }
+    },
+    {
+      "id": 188,
+      "timestamp": 1775208098384,
+      "elapsed_ms": 2283361,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 56,
+        "level": 1,
+        "amount": 2,
+        "click_number": 124,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 189,
+      "timestamp": 1775208098943,
+      "elapsed_ms": 2283920,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 60,
+        "level": 1,
+        "amount": 2,
+        "click_number": 125,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 190,
+      "timestamp": 1775208099124,
+      "elapsed_ms": 2284101,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 61,
+        "level": 1,
+        "amount": 4,
+        "generators_active": 2,
+        "rate_per_second": 3.5
+      }
+    },
+    {
+      "id": 191,
+      "timestamp": 1775208099498,
+      "elapsed_ms": 2284475,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 64,
+        "level": 1,
+        "amount": 2,
+        "click_number": 126,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 192,
+      "timestamp": 1775208099919,
+      "elapsed_ms": 2284896,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 67,
+        "level": 1,
+        "amount": 2,
+        "click_number": 127,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 193,
+      "timestamp": 1775208100130,
+      "elapsed_ms": 2285107,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 68,
+        "level": 1,
+        "amount": 4,
+        "generators_active": 2,
+        "rate_per_second": 3.5
+      }
+    },
+    {
+      "id": 194,
+      "timestamp": 1775208100383,
+      "elapsed_ms": 2285360,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 71,
+        "level": 1,
+        "amount": 2,
+        "click_number": 128,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 195,
+      "timestamp": 1775208100838,
+      "elapsed_ms": 2285815,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 75,
+        "level": 1,
+        "amount": 2,
+        "click_number": 129,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 196,
+      "timestamp": 1775208101125,
+      "elapsed_ms": 2286102,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 76,
+        "level": 1,
+        "amount": 4,
+        "generators_active": 2,
+        "rate_per_second": 3.5
+      }
+    },
+    {
+      "id": 197,
+      "timestamp": 1775208101349,
+      "elapsed_ms": 2286326,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 78,
+        "level": 1,
+        "amount": 2,
+        "click_number": 130,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 198,
+      "timestamp": 1775208102127,
+      "elapsed_ms": 2287104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 81,
+        "level": 1,
+        "amount": 4,
+        "generators_active": 2,
+        "rate_per_second": 3.5
+      }
+    },
+    {
+      "id": 199,
+      "timestamp": 1775208102520,
+      "elapsed_ms": 2287497,
+      "type": "generator",
+      "data": {
+        "energy_snapshot": 65,
+        "level": 1,
+        "generator_key": "reactor",
+        "generator_name": "Micro-réacteur",
+        "new_count": 2,
+        "cost_paid": 17,
+        "passive_rate_after": 4
+      }
+    },
+    {
+      "id": 200,
+      "timestamp": 1775208103129,
+      "elapsed_ms": 2288106,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 68,
+        "level": 1,
+        "amount": 4,
+        "generators_active": 2,
+        "rate_per_second": 4
+      }
+    },
+    {
+      "id": 201,
+      "timestamp": 1775208104062,
+      "elapsed_ms": 2289039,
+      "type": "generator",
+      "data": {
+        "energy_snapshot": 53,
+        "level": 1,
+        "generator_key": "reactor",
+        "generator_name": "Micro-réacteur",
+        "new_count": 3,
+        "cost_paid": 19,
+        "passive_rate_after": 4.5
+      }
+    },
+    {
+      "id": 202,
+      "timestamp": 1775208104127,
+      "elapsed_ms": 2289104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 53,
+        "level": 1,
+        "amount": 5,
+        "generators_active": 2,
+        "rate_per_second": 4.5
+      }
+    },
+    {
+      "id": 203,
+      "timestamp": 1775208105127,
+      "elapsed_ms": 2290104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 58,
+        "level": 1,
+        "amount": 5,
+        "generators_active": 2,
+        "rate_per_second": 4.5
+      }
+    },
+    {
+      "id": 204,
+      "timestamp": 1775208105377,
+      "elapsed_ms": 2290354,
+      "type": "level_up",
+      "data": {
+        "energy_snapshot": 59,
+        "level": 2,
+        "new_level": 2,
+        "xp_overflow": 0
+      }
+    },
+    {
+      "id": 205,
+      "timestamp": 1775208105424,
+      "elapsed_ms": 2290401,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 61,
+        "level": 2,
+        "amount": 2,
+        "click_number": 131,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 206,
+      "timestamp": 1775208106065,
+      "elapsed_ms": 2291042,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 66,
+        "level": 2,
+        "amount": 2,
+        "click_number": 132,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 207,
+      "timestamp": 1775208106125,
+      "elapsed_ms": 2291102,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 66,
+        "level": 2,
+        "amount": 5,
+        "generators_active": 2,
+        "rate_per_second": 4.5
+      }
+    },
+    {
+      "id": 208,
+      "timestamp": 1775208106658,
+      "elapsed_ms": 2291635,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 70,
+        "level": 2,
+        "amount": 2,
+        "click_number": 133,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 209,
+      "timestamp": 1775208107100,
+      "elapsed_ms": 2292077,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 74,
+        "level": 2,
+        "amount": 2,
+        "click_number": 134,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 210,
+      "timestamp": 1775208107128,
+      "elapsed_ms": 2292105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 75,
+        "level": 2,
+        "amount": 5,
+        "generators_active": 2,
+        "rate_per_second": 4.5
+      }
+    },
+    {
+      "id": 211,
+      "timestamp": 1775208107647,
+      "elapsed_ms": 2292624,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 79,
+        "level": 2,
+        "amount": 2,
+        "click_number": 135,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 212,
+      "timestamp": 1775208108128,
+      "elapsed_ms": 2293105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 81,
+        "level": 2,
+        "amount": 5,
+        "generators_active": 2,
+        "rate_per_second": 4.5
+      }
+    },
+    {
+      "id": 213,
+      "timestamp": 1775208108192,
+      "elapsed_ms": 2293169,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 83,
+        "level": 2,
+        "amount": 2,
+        "click_number": 136,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 214,
+      "timestamp": 1775208108720,
+      "elapsed_ms": 2293697,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 87,
+        "level": 2,
+        "amount": 2,
+        "click_number": 137,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 215,
+      "timestamp": 1775208109138,
+      "elapsed_ms": 2294115,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 90,
+        "level": 2,
+        "amount": 5,
+        "generators_active": 2,
+        "rate_per_second": 4.5
+      }
+    },
+    {
+      "id": 216,
+      "timestamp": 1775208109312,
+      "elapsed_ms": 2294289,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 92,
+        "level": 2,
+        "amount": 2,
+        "click_number": 138,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 217,
+      "timestamp": 1775208109883,
+      "elapsed_ms": 2294860,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 97,
+        "level": 2,
+        "amount": 2,
+        "click_number": 139,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 218,
+      "timestamp": 1775208110128,
+      "elapsed_ms": 2295105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 98,
+        "level": 2,
+        "amount": 5,
+        "generators_active": 2,
+        "rate_per_second": 4.5
+      }
+    },
+    {
+      "id": 219,
+      "timestamp": 1775208110395,
+      "elapsed_ms": 2295372,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 101,
+        "level": 2,
+        "amount": 2,
+        "click_number": 140,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 220,
+      "timestamp": 1775208110819,
+      "elapsed_ms": 2295796,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 105,
+        "level": 2,
+        "amount": 2,
+        "click_number": 141,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 221,
+      "timestamp": 1775208111130,
+      "elapsed_ms": 2296107,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 107,
+        "level": 2,
+        "amount": 5,
+        "generators_active": 2,
+        "rate_per_second": 4.5
+      }
+    },
+    {
+      "id": 222,
+      "timestamp": 1775208111267,
+      "elapsed_ms": 2296244,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 109,
+        "level": 2,
+        "amount": 2,
+        "click_number": 142,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 223,
+      "timestamp": 1775208111630,
+      "elapsed_ms": 2296607,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 113,
+        "level": 2,
+        "amount": 2,
+        "click_number": 143,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 224,
+      "timestamp": 1775208112089,
+      "elapsed_ms": 2297066,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 117,
+        "level": 2,
+        "amount": 2,
+        "click_number": 144,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 225,
+      "timestamp": 1775208112129,
+      "elapsed_ms": 2297106,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 117,
+        "level": 2,
+        "amount": 5,
+        "generators_active": 2,
+        "rate_per_second": 4.5
+      }
+    },
+    {
+      "id": 226,
+      "timestamp": 1775208112591,
+      "elapsed_ms": 2297568,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 121,
+        "level": 2,
+        "amount": 2,
+        "click_number": 145,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 227,
+      "timestamp": 1775208113127,
+      "elapsed_ms": 2298104,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 124,
+        "level": 2,
+        "amount": 5,
+        "generators_active": 2,
+        "rate_per_second": 4.5
+      }
+    },
+    {
+      "id": 228,
+      "timestamp": 1775208113829,
+      "elapsed_ms": 2298806,
+      "type": "generator",
+      "data": {
+        "energy_snapshot": 12,
+        "level": 2,
+        "generator_key": "turbine",
+        "generator_name": "Turbine solaire",
+        "new_count": 2,
+        "cost_paid": 114,
+        "passive_rate_after": 7.5
+      }
+    },
+    {
+      "id": 229,
+      "timestamp": 1775208114138,
+      "elapsed_ms": 2299115,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 15,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 230,
+      "timestamp": 1775208114983,
+      "elapsed_ms": 2299960,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 23,
+        "level": 2,
+        "amount": 2,
+        "click_number": 146,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 231,
+      "timestamp": 1775208115128,
+      "elapsed_ms": 2300105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 25,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 232,
+      "timestamp": 1775208115558,
+      "elapsed_ms": 2300535,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 30,
+        "level": 2,
+        "amount": 2,
+        "click_number": 147,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 233,
+      "timestamp": 1775208116026,
+      "elapsed_ms": 2301003,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 35,
+        "level": 2,
+        "amount": 2,
+        "click_number": 148,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 234,
+      "timestamp": 1775208116128,
+      "elapsed_ms": 2301105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 36,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 235,
+      "timestamp": 1775208116448,
+      "elapsed_ms": 2301425,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 40,
+        "level": 2,
+        "amount": 2,
+        "click_number": 149,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 236,
+      "timestamp": 1775208116887,
+      "elapsed_ms": 2301864,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 46,
+        "level": 2,
+        "amount": 2,
+        "click_number": 150,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 237,
+      "timestamp": 1775208117128,
+      "elapsed_ms": 2302105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 48,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 238,
+      "timestamp": 1775208117383,
+      "elapsed_ms": 2302360,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 51,
+        "level": 2,
+        "amount": 2,
+        "click_number": 151,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 239,
+      "timestamp": 1775208117838,
+      "elapsed_ms": 2302815,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 57,
+        "level": 2,
+        "amount": 2,
+        "click_number": 152,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 240,
+      "timestamp": 1775208118129,
+      "elapsed_ms": 2303106,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 59,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 241,
+      "timestamp": 1775208118351,
+      "elapsed_ms": 2303328,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 63,
+        "level": 2,
+        "amount": 2,
+        "click_number": 153,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 242,
+      "timestamp": 1775208118802,
+      "elapsed_ms": 2303779,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 68,
+        "level": 2,
+        "amount": 2,
+        "click_number": 154,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 243,
+      "timestamp": 1775208119128,
+      "elapsed_ms": 2304105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 71,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 244,
+      "timestamp": 1775208119223,
+      "elapsed_ms": 2304200,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 73,
+        "level": 2,
+        "amount": 2,
+        "click_number": 155,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 245,
+      "timestamp": 1775208119620,
+      "elapsed_ms": 2304597,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 78,
+        "level": 2,
+        "amount": 2,
+        "click_number": 156,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 246,
+      "timestamp": 1775208120043,
+      "elapsed_ms": 2305020,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 83,
+        "level": 2,
+        "amount": 2,
+        "click_number": 157,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 247,
+      "timestamp": 1775208120128,
+      "elapsed_ms": 2305105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 84,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 248,
+      "timestamp": 1775208120583,
+      "elapsed_ms": 2305560,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 89,
+        "level": 2,
+        "amount": 2,
+        "click_number": 158,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 249,
+      "timestamp": 1775208121129,
+      "elapsed_ms": 2306106,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 94,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 250,
+      "timestamp": 1775208121148,
+      "elapsed_ms": 2306125,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 96,
+        "level": 2,
+        "amount": 2,
+        "click_number": 159,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 251,
+      "timestamp": 1775208121614,
+      "elapsed_ms": 2306591,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 101,
+        "level": 2,
+        "amount": 2,
+        "click_number": 160,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 252,
+      "timestamp": 1775208122131,
+      "elapsed_ms": 2307108,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 105,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 253,
+      "timestamp": 1775208122137,
+      "elapsed_ms": 2307114,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 107,
+        "level": 2,
+        "amount": 2,
+        "click_number": 161,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 254,
+      "timestamp": 1775208122628,
+      "elapsed_ms": 2307605,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 112,
+        "level": 2,
+        "amount": 2,
+        "click_number": 162,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 255,
+      "timestamp": 1775208123129,
+      "elapsed_ms": 2308106,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 117,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 256,
+      "timestamp": 1775208123181,
+      "elapsed_ms": 2308158,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 119,
+        "level": 2,
+        "amount": 2,
+        "click_number": 163,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 257,
+      "timestamp": 1775208123634,
+      "elapsed_ms": 2308611,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 124,
+        "level": 2,
+        "amount": 2,
+        "click_number": 164,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 258,
+      "timestamp": 1775208124126,
+      "elapsed_ms": 2309103,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 128,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 259,
+      "timestamp": 1775208124134,
+      "elapsed_ms": 2309111,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 130,
+        "level": 2,
+        "amount": 2,
+        "click_number": 165,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 260,
+      "timestamp": 1775208124567,
+      "elapsed_ms": 2309544,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 135,
+        "level": 2,
+        "amount": 2,
+        "click_number": 166,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 261,
+      "timestamp": 1775208125055,
+      "elapsed_ms": 2310032,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 141,
+        "level": 2,
+        "amount": 2,
+        "click_number": 167,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 262,
+      "timestamp": 1775208125128,
+      "elapsed_ms": 2310105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 142,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 263,
+      "timestamp": 1775208125569,
+      "elapsed_ms": 2310546,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 147,
+        "level": 2,
+        "amount": 2,
+        "click_number": 168,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 264,
+      "timestamp": 1775208126070,
+      "elapsed_ms": 2311047,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 152,
+        "level": 2,
+        "amount": 2,
+        "click_number": 169,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 265,
+      "timestamp": 1775208126128,
+      "elapsed_ms": 2311105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 153,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 266,
+      "timestamp": 1775208126511,
+      "elapsed_ms": 2311488,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 158,
+        "level": 2,
+        "amount": 2,
+        "click_number": 170,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 267,
+      "timestamp": 1775208126980,
+      "elapsed_ms": 2311957,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 163,
+        "level": 2,
+        "amount": 2,
+        "click_number": 171,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 268,
+      "timestamp": 1775208127128,
+      "elapsed_ms": 2312105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 165,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 269,
+      "timestamp": 1775208127450,
+      "elapsed_ms": 2312427,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 169,
+        "level": 2,
+        "amount": 2,
+        "click_number": 172,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 270,
+      "timestamp": 1775208127906,
+      "elapsed_ms": 2312883,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 174,
+        "level": 2,
+        "amount": 2,
+        "click_number": 173,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 271,
+      "timestamp": 1775208128129,
+      "elapsed_ms": 2313106,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 176,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 272,
+      "timestamp": 1775208128272,
+      "elapsed_ms": 2313249,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 179,
+        "level": 2,
+        "amount": 2,
+        "click_number": 174,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 273,
+      "timestamp": 1775208128860,
+      "elapsed_ms": 2313837,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 185,
+        "level": 2,
+        "amount": 2,
+        "click_number": 175,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 274,
+      "timestamp": 1775208129124,
+      "elapsed_ms": 2314101,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 188,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 275,
+      "timestamp": 1775208129385,
+      "elapsed_ms": 2314362,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 191,
+        "level": 2,
+        "amount": 2,
+        "click_number": 176,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 276,
+      "timestamp": 1775208129851,
+      "elapsed_ms": 2314828,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 197,
+        "level": 2,
+        "amount": 2,
+        "click_number": 177,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 277,
+      "timestamp": 1775208130129,
+      "elapsed_ms": 2315106,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 199,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 278,
+      "timestamp": 1775208130320,
+      "elapsed_ms": 2315297,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 202,
+        "level": 2,
+        "amount": 2,
+        "click_number": 178,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 279,
+      "timestamp": 1775208130859,
+      "elapsed_ms": 2315836,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 208,
+        "level": 2,
+        "amount": 2,
+        "click_number": 179,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 280,
+      "timestamp": 1775208131129,
+      "elapsed_ms": 2316106,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 211,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 281,
+      "timestamp": 1775208131232,
+      "elapsed_ms": 2316209,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 213,
+        "level": 2,
+        "amount": 2,
+        "click_number": 180,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 282,
+      "timestamp": 1775208131735,
+      "elapsed_ms": 2316712,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 219,
+        "level": 2,
+        "amount": 2,
+        "click_number": 181,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 283,
+      "timestamp": 1775208132120,
+      "elapsed_ms": 2317097,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 224,
+        "level": 2,
+        "amount": 2,
+        "click_number": 182,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 284,
+      "timestamp": 1775208132131,
+      "elapsed_ms": 2317108,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 224,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 285,
+      "timestamp": 1775208132571,
+      "elapsed_ms": 2317548,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 229,
+        "level": 2,
+        "amount": 2,
+        "click_number": 183,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 286,
+      "timestamp": 1775208133025,
+      "elapsed_ms": 2318002,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 234,
+        "level": 2,
+        "amount": 2,
+        "click_number": 184,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 287,
+      "timestamp": 1775208133128,
+      "elapsed_ms": 2318105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 236,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 288,
+      "timestamp": 1775208133496,
+      "elapsed_ms": 2318473,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 240,
+        "level": 2,
+        "amount": 2,
+        "click_number": 185,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 289,
+      "timestamp": 1775208134125,
+      "elapsed_ms": 2319102,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 245,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 290,
+      "timestamp": 1775208135128,
+      "elapsed_ms": 2320105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 253,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 291,
+      "timestamp": 1775208135150,
+      "elapsed_ms": 2320127,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 255,
+        "level": 2,
+        "amount": 2,
+        "click_number": 186,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 292,
+      "timestamp": 1775208136128,
+      "elapsed_ms": 2321105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 262,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 293,
+      "timestamp": 1775208137128,
+      "elapsed_ms": 2322105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 270,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 294,
+      "timestamp": 1775208137147,
+      "elapsed_ms": 2322124,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 272,
+        "level": 2,
+        "amount": 2,
+        "click_number": 187,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 295,
+      "timestamp": 1775208137661,
+      "elapsed_ms": 2322638,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 277,
+        "level": 2,
+        "amount": 2,
+        "click_number": 188,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 296,
+      "timestamp": 1775208138049,
+      "elapsed_ms": 2323026,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 282,
+        "level": 2,
+        "amount": 2,
+        "click_number": 189,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 297,
+      "timestamp": 1775208138128,
+      "elapsed_ms": 2323105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 283,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 298,
+      "timestamp": 1775208138560,
+      "elapsed_ms": 2323537,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 288,
+        "level": 2,
+        "amount": 2,
+        "click_number": 190,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 299,
+      "timestamp": 1775208138916,
+      "elapsed_ms": 2323893,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 293,
+        "level": 2,
+        "amount": 2,
+        "click_number": 191,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 300,
+      "timestamp": 1775208139129,
+      "elapsed_ms": 2324106,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 295,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 301,
+      "timestamp": 1775208139476,
+      "elapsed_ms": 2324453,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 299,
+        "level": 2,
+        "amount": 2,
+        "click_number": 192,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 302,
+      "timestamp": 1775208140128,
+      "elapsed_ms": 2325105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 304,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 303,
+      "timestamp": 1775208140423,
+      "elapsed_ms": 2325400,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 308,
+        "level": 2,
+        "amount": 2,
+        "click_number": 193,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 304,
+      "timestamp": 1775208140949,
+      "elapsed_ms": 2325926,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 314,
+        "level": 2,
+        "amount": 2,
+        "click_number": 194,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 305,
+      "timestamp": 1775208141130,
+      "elapsed_ms": 2326107,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 316,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 306,
+      "timestamp": 1775208141305,
+      "elapsed_ms": 2326282,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 319,
+        "level": 2,
+        "amount": 2,
+        "click_number": 195,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 307,
+      "timestamp": 1775208141855,
+      "elapsed_ms": 2326832,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 325,
+        "level": 2,
+        "amount": 2,
+        "click_number": 196,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 308,
+      "timestamp": 1775208142128,
+      "elapsed_ms": 2327105,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 327,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 309,
+      "timestamp": 1775208142274,
+      "elapsed_ms": 2327251,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 330,
+        "level": 2,
+        "amount": 2,
+        "click_number": 197,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 310,
+      "timestamp": 1775208142632,
+      "elapsed_ms": 2327609,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 335,
+        "level": 2,
+        "amount": 2,
+        "click_number": 198,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 311,
+      "timestamp": 1775208143114,
+      "elapsed_ms": 2328091,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 340,
+        "level": 2,
+        "amount": 2,
+        "click_number": 199,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 312,
+      "timestamp": 1775208143126,
+      "elapsed_ms": 2328103,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 341,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 313,
+      "timestamp": 1775208143500,
+      "elapsed_ms": 2328477,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 345,
+        "level": 2,
+        "amount": 2,
+        "click_number": 200,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 314,
+      "timestamp": 1775208143938,
+      "elapsed_ms": 2328915,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 351,
+        "level": 2,
+        "amount": 2,
+        "click_number": 201,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 315,
+      "timestamp": 1775208144129,
+      "elapsed_ms": 2329106,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 352,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 316,
+      "timestamp": 1775208144370,
+      "elapsed_ms": 2329347,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 356,
+        "level": 2,
+        "amount": 2,
+        "click_number": 202,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 317,
+      "timestamp": 1775208144733,
+      "elapsed_ms": 2329710,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 361,
+        "level": 2,
+        "amount": 2,
+        "click_number": 203,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 318,
+      "timestamp": 1775208145106,
+      "elapsed_ms": 2330083,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 365,
+        "level": 2,
+        "amount": 2,
+        "click_number": 204,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 319,
+      "timestamp": 1775208145130,
+      "elapsed_ms": 2330107,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 366,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 320,
+      "timestamp": 1775208145465,
+      "elapsed_ms": 2330442,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 370,
+        "level": 2,
+        "amount": 2,
+        "click_number": 205,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 321,
+      "timestamp": 1775208146124,
+      "elapsed_ms": 2331101,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 375,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 322,
+      "timestamp": 1775208146200,
+      "elapsed_ms": 2331177,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 377,
+        "level": 2,
+        "amount": 2,
+        "click_number": 206,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 323,
+      "timestamp": 1775208146605,
+      "elapsed_ms": 2331582,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 382,
+        "level": 2,
+        "amount": 2,
+        "click_number": 207,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 324,
+      "timestamp": 1775208146936,
+      "elapsed_ms": 2331913,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 387,
+        "level": 2,
+        "amount": 2,
+        "click_number": 208,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 325,
+      "timestamp": 1775208147129,
+      "elapsed_ms": 2332106,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 389,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 326,
+      "timestamp": 1775208147283,
+      "elapsed_ms": 2332260,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 392,
+        "level": 2,
+        "amount": 2,
+        "click_number": 209,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 327,
+      "timestamp": 1775208147686,
+      "elapsed_ms": 2332663,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 397,
+        "level": 2,
+        "amount": 2,
+        "click_number": 210,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 328,
+      "timestamp": 1775208148107,
+      "elapsed_ms": 2333084,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 402,
+        "level": 2,
+        "amount": 2,
+        "click_number": 211,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 329,
+      "timestamp": 1775208148130,
+      "elapsed_ms": 2333107,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 402,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 330,
+      "timestamp": 1775208148494,
+      "elapsed_ms": 2333471,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 407,
+        "level": 2,
+        "amount": 2,
+        "click_number": 212,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 331,
+      "timestamp": 1775208148960,
+      "elapsed_ms": 2333937,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 412,
+        "level": 2,
+        "amount": 2,
+        "click_number": 213,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 332,
+      "timestamp": 1775208149132,
+      "elapsed_ms": 2334109,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 414,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 333,
+      "timestamp": 1775208149270,
+      "elapsed_ms": 2334247,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 416,
+        "level": 2,
+        "amount": 2,
+        "click_number": 214,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 334,
+      "timestamp": 1775208149693,
+      "elapsed_ms": 2334670,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 422,
+        "level": 2,
+        "amount": 2,
+        "click_number": 215,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 335,
+      "timestamp": 1775208150034,
+      "elapsed_ms": 2335011,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 426,
+        "level": 2,
+        "amount": 2,
+        "click_number": 216,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 336,
+      "timestamp": 1775208150126,
+      "elapsed_ms": 2335103,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 427,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 337,
+      "timestamp": 1775208150402,
+      "elapsed_ms": 2335379,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 431,
+        "level": 2,
+        "amount": 2,
+        "click_number": 217,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 338,
+      "timestamp": 1775208151179,
+      "elapsed_ms": 2336156,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 437,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 339,
+      "timestamp": 1775208151384,
+      "elapsed_ms": 2336361,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 440,
+        "level": 2,
+        "amount": 2,
+        "click_number": 218,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 340,
+      "timestamp": 1775208152181,
+      "elapsed_ms": 2337158,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 446,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 341,
+      "timestamp": 1775208152285,
+      "elapsed_ms": 2337262,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 449,
+        "level": 2,
+        "amount": 2,
+        "click_number": 219,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 342,
+      "timestamp": 1775208152602,
+      "elapsed_ms": 2337579,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 453,
+        "level": 2,
+        "amount": 2,
+        "click_number": 220,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 343,
+      "timestamp": 1775208152962,
+      "elapsed_ms": 2337939,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 458,
+        "level": 2,
+        "amount": 2,
+        "click_number": 221,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 344,
+      "timestamp": 1775208153180,
+      "elapsed_ms": 2338157,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 460,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 345,
+      "timestamp": 1775208153335,
+      "elapsed_ms": 2338312,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 463,
+        "level": 2,
+        "amount": 2,
+        "click_number": 222,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 346,
+      "timestamp": 1775208153726,
+      "elapsed_ms": 2338703,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 467,
+        "level": 2,
+        "amount": 2,
+        "click_number": 223,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 347,
+      "timestamp": 1775208154178,
+      "elapsed_ms": 2339155,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 471,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 348,
+      "timestamp": 1775208154702,
+      "elapsed_ms": 2339679,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 477,
+        "level": 2,
+        "amount": 2,
+        "click_number": 224,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 349,
+      "timestamp": 1775208155030,
+      "elapsed_ms": 2340007,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 481,
+        "level": 2,
+        "amount": 2,
+        "click_number": 225,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 350,
+      "timestamp": 1775208155180,
+      "elapsed_ms": 2340157,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 483,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 351,
+      "timestamp": 1775208155590,
+      "elapsed_ms": 2340567,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 488,
+        "level": 2,
+        "amount": 2,
+        "click_number": 226,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 352,
+      "timestamp": 1775208156055,
+      "elapsed_ms": 2341032,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 493,
+        "level": 2,
+        "amount": 2,
+        "click_number": 227,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 353,
+      "timestamp": 1775208156174,
+      "elapsed_ms": 2341151,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 494,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 354,
+      "timestamp": 1775208156493,
+      "elapsed_ms": 2341470,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 498,
+        "level": 2,
+        "amount": 2,
+        "click_number": 228,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 355,
+      "timestamp": 1775208157178,
+      "elapsed_ms": 2342155,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 504,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 356,
+      "timestamp": 1775208158178,
+      "elapsed_ms": 2343155,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 511,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 357,
+      "timestamp": 1775208159187,
+      "elapsed_ms": 2344164,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 519,
+        "level": 2,
+        "amount": 8,
+        "generators_active": 2,
+        "rate_per_second": 7.5
+      }
+    },
+    {
+      "id": 358,
+      "timestamp": 1775208159502,
+      "elapsed_ms": 2344479,
+      "type": "upgrade",
+      "data": {
+        "energy_snapshot": 21,
+        "level": 2,
+        "upgrade_key": "reactx2",
+        "upgrade_name": "Réacteurs ×2",
+        "click_power_after": 2
+      }
+    },
+    {
+      "id": 359,
+      "timestamp": 1775208160174,
+      "elapsed_ms": 2345151,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 27,
+        "level": 2,
+        "amount": 9,
+        "generators_active": 2,
+        "rate_per_second": 9
+      }
+    },
+    {
+      "id": 360,
+      "timestamp": 1775208161182,
+      "elapsed_ms": 2346159,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 36,
+        "level": 2,
+        "amount": 9,
+        "generators_active": 2,
+        "rate_per_second": 9
+      }
+    },
+    {
+      "id": 361,
+      "timestamp": 1775208161526,
+      "elapsed_ms": 2346503,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 41,
+        "level": 2,
+        "amount": 2,
+        "click_number": 229,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 362,
+      "timestamp": 1775208162180,
+      "elapsed_ms": 2347157,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 47,
+        "level": 2,
+        "amount": 9,
+        "generators_active": 2,
+        "rate_per_second": 9
+      }
+    },
+    {
+      "id": 363,
+      "timestamp": 1775208162254,
+      "elapsed_ms": 2347231,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 50,
+        "level": 2,
+        "amount": 2,
+        "click_number": 230,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 364,
+      "timestamp": 1775208162850,
+      "elapsed_ms": 2347827,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 57,
+        "level": 2,
+        "amount": 2,
+        "click_number": 231,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 365,
+      "timestamp": 1775208163176,
+      "elapsed_ms": 2348153,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 60,
+        "level": 2,
+        "amount": 9,
+        "generators_active": 2,
+        "rate_per_second": 9
+      }
+    },
+    {
+      "id": 366,
+      "timestamp": 1775208164178,
+      "elapsed_ms": 2349155,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 69,
+        "level": 2,
+        "amount": 9,
+        "generators_active": 2,
+        "rate_per_second": 9
+      }
+    },
+    {
+      "id": 367,
+      "timestamp": 1775208164310,
+      "elapsed_ms": 2349287,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 72,
+        "level": 2,
+        "amount": 2,
+        "click_number": 232,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 368,
+      "timestamp": 1775208164876,
+      "elapsed_ms": 2349853,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 79,
+        "level": 2,
+        "amount": 2,
+        "click_number": 233,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 369,
+      "timestamp": 1775208165180,
+      "elapsed_ms": 2350157,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 82,
+        "level": 2,
+        "amount": 9,
+        "generators_active": 2,
+        "rate_per_second": 9
+      }
+    },
+    {
+      "id": 370,
+      "timestamp": 1775208165466,
+      "elapsed_ms": 2350443,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 86,
+        "level": 2,
+        "amount": 2,
+        "click_number": 234,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 371,
+      "timestamp": 1775208165863,
+      "elapsed_ms": 2350840,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 92,
+        "level": 2,
+        "amount": 2,
+        "click_number": 235,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 372,
+      "timestamp": 1775208166178,
+      "elapsed_ms": 2351155,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 95,
+        "level": 2,
+        "amount": 9,
+        "generators_active": 2,
+        "rate_per_second": 9
+      }
+    },
+    {
+      "id": 373,
+      "timestamp": 1775208166925,
+      "elapsed_ms": 2351902,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 103,
+        "level": 2,
+        "amount": 2,
+        "click_number": 236,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 374,
+      "timestamp": 1775208167178,
+      "elapsed_ms": 2352155,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 106,
+        "level": 2,
+        "amount": 9,
+        "generators_active": 2,
+        "rate_per_second": 9
+      }
+    },
+    {
+      "id": 375,
+      "timestamp": 1775208167515,
+      "elapsed_ms": 2352492,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 111,
+        "level": 2,
+        "amount": 2,
+        "click_number": 237,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 376,
+      "timestamp": 1775208168082,
+      "elapsed_ms": 2353059,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 118,
+        "level": 2,
+        "amount": 2,
+        "click_number": 238,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 377,
+      "timestamp": 1775208168178,
+      "elapsed_ms": 2353155,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 119,
+        "level": 2,
+        "amount": 9,
+        "generators_active": 2,
+        "rate_per_second": 9
+      }
+    },
+    {
+      "id": 378,
+      "timestamp": 1775208168532,
+      "elapsed_ms": 2353509,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 124,
+        "level": 2,
+        "amount": 2,
+        "click_number": 239,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 379,
+      "timestamp": 1775208168966,
+      "elapsed_ms": 2353943,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 130,
+        "level": 2,
+        "amount": 2,
+        "click_number": 240,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 380,
+      "timestamp": 1775208169181,
+      "elapsed_ms": 2354158,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 132,
+        "level": 2,
+        "amount": 9,
+        "generators_active": 2,
+        "rate_per_second": 9
+      }
+    },
+    {
+      "id": 381,
+      "timestamp": 1775208169368,
+      "elapsed_ms": 2354345,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 135,
+        "level": 2,
+        "amount": 2,
+        "click_number": 241,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 382,
+      "timestamp": 1775208169821,
+      "elapsed_ms": 2354798,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 142,
+        "level": 2,
+        "amount": 2,
+        "click_number": 242,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 383,
+      "timestamp": 1775208170176,
+      "elapsed_ms": 2355153,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 145,
+        "level": 2,
+        "amount": 9,
+        "generators_active": 2,
+        "rate_per_second": 9
+      }
+    },
+    {
+      "id": 384,
+      "timestamp": 1775208170200,
+      "elapsed_ms": 2355177,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 147,
+        "level": 2,
+        "amount": 2,
+        "click_number": 243,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 385,
+      "timestamp": 1775208171179,
+      "elapsed_ms": 2356156,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 156,
+        "level": 2,
+        "amount": 9,
+        "generators_active": 2,
+        "rate_per_second": 9
+      }
+    },
+    {
+      "id": 386,
+      "timestamp": 1775208171276,
+      "elapsed_ms": 2356253,
+      "type": "generator",
+      "data": {
+        "energy_snapshot": 25,
+        "level": 2,
+        "generator_key": "turbine",
+        "generator_name": "Turbine solaire",
+        "new_count": 3,
+        "cost_paid": 132,
+        "passive_rate_after": 12
+      }
+    },
+    {
+      "id": 387,
+      "timestamp": 1775208172176,
+      "elapsed_ms": 2357153,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 36,
+        "level": 2,
+        "amount": 12,
+        "generators_active": 2,
+        "rate_per_second": 12
+      }
+    },
+    {
+      "id": 388,
+      "timestamp": 1775208172413,
+      "elapsed_ms": 2357390,
+      "type": "generator",
+      "data": {
+        "energy_snapshot": 16,
+        "level": 2,
+        "generator_key": "reactor",
+        "generator_name": "Micro-réacteur",
+        "new_count": 4,
+        "cost_paid": 22,
+        "passive_rate_after": 13
+      }
+    },
+    {
+      "id": 389,
+      "timestamp": 1775208173175,
+      "elapsed_ms": 2358152,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 27,
+        "level": 2,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 390,
+      "timestamp": 1775208173485,
+      "elapsed_ms": 2358462,
+      "type": "milestone",
+      "data": {
+        "energy_snapshot": 31,
+        "level": 2,
+        "milestone_id": "m1k",
+        "description": "Surplus énergétique — 1 000 ⚡",
+        "total_produced": 1000,
+        "clicks": 243
+      }
+    },
+    {
+      "id": 391,
+      "timestamp": 1775208173894,
+      "elapsed_ms": 2358871,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 38,
+        "level": 2,
+        "amount": 2,
+        "click_number": 244,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 392,
+      "timestamp": 1775208174179,
+      "elapsed_ms": 2359156,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 42,
+        "level": 2,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 393,
+      "timestamp": 1775208174514,
+      "elapsed_ms": 2359491,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 48,
+        "level": 2,
+        "amount": 2,
+        "click_number": 245,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 394,
+      "timestamp": 1775208174984,
+      "elapsed_ms": 2359961,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 56,
+        "level": 2,
+        "amount": 2,
+        "click_number": 246,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 395,
+      "timestamp": 1775208175181,
+      "elapsed_ms": 2360158,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 59,
+        "level": 2,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 396,
+      "timestamp": 1775208175463,
+      "elapsed_ms": 2360440,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 64,
+        "level": 2,
+        "amount": 2,
+        "click_number": 247,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 397,
+      "timestamp": 1775208175935,
+      "elapsed_ms": 2360912,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 72,
+        "level": 2,
+        "amount": 2,
+        "click_number": 248,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 398,
+      "timestamp": 1775208176177,
+      "elapsed_ms": 2361154,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 76,
+        "level": 2,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 399,
+      "timestamp": 1775208176506,
+      "elapsed_ms": 2361483,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 82,
+        "level": 2,
+        "amount": 2,
+        "click_number": 249,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 400,
+      "timestamp": 1775208176945,
+      "elapsed_ms": 2361922,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 89,
+        "level": 2,
+        "amount": 2,
+        "click_number": 250,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 401,
+      "timestamp": 1775208177179,
+      "elapsed_ms": 2362156,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 93,
+        "level": 2,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 402,
+      "timestamp": 1775208177484,
+      "elapsed_ms": 2362461,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 99,
+        "level": 2,
+        "amount": 2,
+        "click_number": 251,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 403,
+      "timestamp": 1775208177904,
+      "elapsed_ms": 2362881,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 106,
+        "level": 2,
+        "amount": 2,
+        "click_number": 252,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 404,
+      "timestamp": 1775208178180,
+      "elapsed_ms": 2363157,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 110,
+        "level": 2,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 405,
+      "timestamp": 1775208178415,
+      "elapsed_ms": 2363392,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 114,
+        "level": 2,
+        "amount": 2,
+        "click_number": 253,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 406,
+      "timestamp": 1775208178897,
+      "elapsed_ms": 2363874,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 123,
+        "level": 2,
+        "amount": 2,
+        "click_number": 254,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 407,
+      "timestamp": 1775208179176,
+      "elapsed_ms": 2364153,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 127,
+        "level": 2,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 408,
+      "timestamp": 1775208179291,
+      "elapsed_ms": 2364268,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 130,
+        "level": 2,
+        "amount": 2,
+        "click_number": 255,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 409,
+      "timestamp": 1775208179702,
+      "elapsed_ms": 2364679,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 137,
+        "level": 2,
+        "amount": 2,
+        "click_number": 256,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 410,
+      "timestamp": 1775208180178,
+      "elapsed_ms": 2365155,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 144,
+        "level": 2,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 411,
+      "timestamp": 1775208180216,
+      "elapsed_ms": 2365193,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 146,
+        "level": 2,
+        "amount": 2,
+        "click_number": 257,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 412,
+      "timestamp": 1775208180643,
+      "elapsed_ms": 2365620,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 154,
+        "level": 2,
+        "amount": 2,
+        "click_number": 258,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 413,
+      "timestamp": 1775208181064,
+      "elapsed_ms": 2366041,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 161,
+        "level": 2,
+        "amount": 2,
+        "click_number": 259,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 414,
+      "timestamp": 1775208181179,
+      "elapsed_ms": 2366156,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 163,
+        "level": 2,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 415,
+      "timestamp": 1775208181535,
+      "elapsed_ms": 2366512,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 169,
+        "level": 2,
+        "amount": 2,
+        "click_number": 260,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 416,
+      "timestamp": 1775208181992,
+      "elapsed_ms": 2366969,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 177,
+        "level": 2,
+        "amount": 2,
+        "click_number": 261,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 417,
+      "timestamp": 1775208182181,
+      "elapsed_ms": 2367158,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 180,
+        "level": 2,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 418,
+      "timestamp": 1775208182382,
+      "elapsed_ms": 2367359,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 184,
+        "level": 2,
+        "amount": 2,
+        "click_number": 262,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 419,
+      "timestamp": 1775208182787,
+      "elapsed_ms": 2367764,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 192,
+        "level": 2,
+        "amount": 2,
+        "click_number": 263,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 420,
+      "timestamp": 1775208183182,
+      "elapsed_ms": 2368159,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 197,
+        "level": 2,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 421,
+      "timestamp": 1775208183274,
+      "elapsed_ms": 2368251,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 199,
+        "level": 2,
+        "amount": 2,
+        "click_number": 264,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 422,
+      "timestamp": 1775208183845,
+      "elapsed_ms": 2368822,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 209,
+        "level": 2,
+        "amount": 2,
+        "click_number": 265,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 423,
+      "timestamp": 1775208183979,
+      "elapsed_ms": 2368956,
+      "type": "level_up",
+      "data": {
+        "energy_snapshot": 211,
+        "level": 3,
+        "new_level": 3,
+        "xp_overflow": 0
+      }
+    },
+    {
+      "id": 424,
+      "timestamp": 1775208184180,
+      "elapsed_ms": 2369157,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 214,
+        "level": 3,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 425,
+      "timestamp": 1775208185179,
+      "elapsed_ms": 2370156,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 227,
+        "level": 3,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 426,
+      "timestamp": 1775208186179,
+      "elapsed_ms": 2371156,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 240,
+        "level": 3,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 427,
+      "timestamp": 1775208187188,
+      "elapsed_ms": 2372165,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 253,
+        "level": 3,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 428,
+      "timestamp": 1775208188184,
+      "elapsed_ms": 2373161,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 266,
+        "level": 3,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 429,
+      "timestamp": 1775208189177,
+      "elapsed_ms": 2374154,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 279,
+        "level": 3,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 430,
+      "timestamp": 1775208190174,
+      "elapsed_ms": 2375151,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 292,
+        "level": 3,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 431,
+      "timestamp": 1775208191176,
+      "elapsed_ms": 2376153,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 305,
+        "level": 3,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 432,
+      "timestamp": 1775208192175,
+      "elapsed_ms": 2377152,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 318,
+        "level": 3,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 433,
+      "timestamp": 1775208193189,
+      "elapsed_ms": 2378166,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 331,
+        "level": 3,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 434,
+      "timestamp": 1775208194186,
+      "elapsed_ms": 2379163,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 344,
+        "level": 3,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 435,
+      "timestamp": 1775208195177,
+      "elapsed_ms": 2380154,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 357,
+        "level": 3,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 436,
+      "timestamp": 1775208196179,
+      "elapsed_ms": 2381156,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 370,
+        "level": 3,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 437,
+      "timestamp": 1775208197189,
+      "elapsed_ms": 2382166,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 383,
+        "level": 3,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 438,
+      "timestamp": 1775208198188,
+      "elapsed_ms": 2383165,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 396,
+        "level": 3,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 439,
+      "timestamp": 1775208199186,
+      "elapsed_ms": 2384163,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 409,
+        "level": 3,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 440,
+      "timestamp": 1775208199635,
+      "elapsed_ms": 2384612,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 417,
+        "level": 3,
+        "amount": 2,
+        "click_number": 266,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 441,
+      "timestamp": 1775208200178,
+      "elapsed_ms": 2385155,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 424,
+        "level": 3,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 442,
+      "timestamp": 1775208200760,
+      "elapsed_ms": 2385737,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 433,
+        "level": 3,
+        "amount": 2,
+        "click_number": 267,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 443,
+      "timestamp": 1775208201179,
+      "elapsed_ms": 2386156,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 439,
+        "level": 3,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 444,
+      "timestamp": 1775208201407,
+      "elapsed_ms": 2386384,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 443,
+        "level": 3,
+        "amount": 2,
+        "click_number": 268,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 445,
+      "timestamp": 1775208202183,
+      "elapsed_ms": 2387160,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 454,
+        "level": 3,
+        "amount": 13,
+        "generators_active": 2,
+        "rate_per_second": 13
+      }
+    },
+    {
+      "id": 446,
+      "timestamp": 1775208202659,
+      "elapsed_ms": 2387636,
+      "type": "generator",
+      "data": {
+        "energy_snapshot": 434,
+        "level": 3,
+        "generator_key": "reactor",
+        "generator_name": "Micro-réacteur",
+        "new_count": 5,
+        "cost_paid": 26,
+        "passive_rate_after": 14
+      }
+    },
+    {
+      "id": 447,
+      "timestamp": 1775208203175,
+      "elapsed_ms": 2388152,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 441,
+        "level": 3,
+        "amount": 14,
+        "generators_active": 2,
+        "rate_per_second": 14
+      }
+    },
+    {
+      "id": 448,
+      "timestamp": 1775208203571,
+      "elapsed_ms": 2388548,
+      "type": "generator",
+      "data": {
+        "energy_snapshot": 294,
+        "level": 3,
+        "generator_key": "turbine",
+        "generator_name": "Turbine solaire",
+        "new_count": 4,
+        "cost_paid": 152,
+        "passive_rate_after": 17
+      }
+    },
+    {
+      "id": 449,
+      "timestamp": 1775208204177,
+      "elapsed_ms": 2389154,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 305,
+        "level": 3,
+        "amount": 17,
+        "generators_active": 2,
+        "rate_per_second": 17
+      }
+    },
+    {
+      "id": 450,
+      "timestamp": 1775208204368,
+      "elapsed_ms": 2389345,
+      "type": "generator",
+      "data": {
+        "energy_snapshot": 134,
+        "level": 3,
+        "generator_key": "turbine",
+        "generator_name": "Turbine solaire",
+        "new_count": 5,
+        "cost_paid": 174,
+        "passive_rate_after": 20
+      }
+    },
+    {
+      "id": 451,
+      "timestamp": 1775208205177,
+      "elapsed_ms": 2390154,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 151,
+        "level": 3,
+        "amount": 20,
+        "generators_active": 2,
+        "rate_per_second": 20
+      }
+    },
+    {
+      "id": 452,
+      "timestamp": 1775208205286,
+      "elapsed_ms": 2390263,
+      "type": "generator",
+      "data": {
+        "energy_snapshot": 123,
+        "level": 3,
+        "generator_key": "reactor",
+        "generator_name": "Micro-réacteur",
+        "new_count": 6,
+        "cost_paid": 30,
+        "passive_rate_after": 21
+      }
+    },
+    {
+      "id": 453,
+      "timestamp": 1775208205994,
+      "elapsed_ms": 2390971,
+      "type": "generator",
+      "data": {
+        "energy_snapshot": 103,
+        "level": 3,
+        "generator_key": "reactor",
+        "generator_name": "Micro-réacteur",
+        "new_count": 7,
+        "cost_paid": 34,
+        "passive_rate_after": 22
+      }
+    },
+    {
+      "id": 454,
+      "timestamp": 1775208206175,
+      "elapsed_ms": 2391152,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 108,
+        "level": 3,
+        "amount": 22,
+        "generators_active": 2,
+        "rate_per_second": 22
+      }
+    },
+    {
+      "id": 455,
+      "timestamp": 1775208206663,
+      "elapsed_ms": 2391640,
+      "type": "generator",
+      "data": {
+        "energy_snapshot": 79,
+        "level": 3,
+        "generator_key": "reactor",
+        "generator_name": "Micro-réacteur",
+        "new_count": 8,
+        "cost_paid": 39,
+        "passive_rate_after": 23
+      }
+    },
+    {
+      "id": 456,
+      "timestamp": 1775208207187,
+      "elapsed_ms": 2392164,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 91,
+        "level": 3,
+        "amount": 23,
+        "generators_active": 2,
+        "rate_per_second": 23
+      }
+    },
+    {
+      "id": 457,
+      "timestamp": 1775208207235,
+      "elapsed_ms": 2392212,
+      "type": "generator",
+      "data": {
+        "energy_snapshot": 48,
+        "level": 3,
+        "generator_key": "reactor",
+        "generator_name": "Micro-réacteur",
+        "new_count": 9,
+        "cost_paid": 45,
+        "passive_rate_after": 24
+      }
+    },
+    {
+      "id": 458,
+      "timestamp": 1775208207776,
+      "elapsed_ms": 2392753,
+      "type": "generator",
+      "data": {
+        "energy_snapshot": 8,
+        "level": 3,
+        "generator_key": "reactor",
+        "generator_name": "Micro-réacteur",
+        "new_count": 10,
+        "cost_paid": 52,
+        "passive_rate_after": 25
+      }
+    },
+    {
+      "id": 459,
+      "timestamp": 1775208208175,
+      "elapsed_ms": 2393152,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 19,
+        "level": 3,
+        "amount": 25,
+        "generators_active": 2,
+        "rate_per_second": 25
+      }
+    },
+    {
+      "id": 460,
+      "timestamp": 1775208209179,
+      "elapsed_ms": 2394156,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 44,
+        "level": 3,
+        "amount": 25,
+        "generators_active": 2,
+        "rate_per_second": 25
+      }
+    },
+    {
+      "id": 461,
+      "timestamp": 1775208209553,
+      "elapsed_ms": 2394530,
+      "type": "click",
+      "data": {
+        "energy_snapshot": 55,
+        "level": 3,
+        "amount": 2,
+        "click_number": 269,
+        "click_power": 2
+      }
+    },
+    {
+      "id": 462,
+      "timestamp": 1775208210189,
+      "elapsed_ms": 2395166,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 71,
+        "level": 3,
+        "amount": 25,
+        "generators_active": 2,
+        "rate_per_second": 25
+      }
+    },
+    {
+      "id": 463,
+      "timestamp": 1775208211174,
+      "elapsed_ms": 2396151,
+      "type": "generator",
+      "data": {
+        "energy_snapshot": 35,
+        "level": 3,
+        "generator_key": "reactor",
+        "generator_name": "Micro-réacteur",
+        "new_count": 11,
+        "cost_paid": 60,
+        "passive_rate_after": 26
+      }
+    },
+    {
+      "id": 464,
+      "timestamp": 1775208211183,
+      "elapsed_ms": 2396160,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 36,
+        "level": 3,
+        "amount": 26,
+        "generators_active": 2,
+        "rate_per_second": 26
+      }
+    },
+    {
+      "id": 465,
+      "timestamp": 1775208212180,
+      "elapsed_ms": 2397157,
+      "type": "passive",
+      "data": {
+        "energy_snapshot": 62,
+        "level": 3,
+        "amount": 26,
+        "generators_active": 2,
+        "rate_per_second": 26
+      }
+    }
+  ]
+}
